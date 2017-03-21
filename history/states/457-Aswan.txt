@@ -1,22 +1,22 @@
 
 state={
-	id=103
-	name="STATE_103"
+	id=457
+	name="STATE_457"
 
 	history={
-		owner = ITA
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = LBA
+		add_core_of = EGY
 
 	}
 
 	provinces={
-		4133 9977 
+		4068 4910 5069 
 	}
-	manpower=8808
+	manpower=2194
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

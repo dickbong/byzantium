@@ -1,0 +1,24 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower=150
+	state_category = tiny_island
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			13047 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13047 1 
+		}
+
+	}
+	provinces={
+		13047 
+	}
+}
