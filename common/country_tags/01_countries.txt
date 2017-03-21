@@ -1,0 +1,6 @@
+LIC = "countries/Licinius.txt"
+CST = "countries/Constantius.txt"
+GAE = "countries/Galerius.txt"
+MXM = "countries/Maximinus.txt"
+MXT = "countries/Maxentius.txt"
+SEV = "countries/Severus.txt"
