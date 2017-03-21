@@ -7,14 +7,16 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = GAE
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = GRE
 		add_claim_by = BUL
-
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
 	}
 
 	provinces={

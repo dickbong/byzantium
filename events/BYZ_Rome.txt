@@ -1,0 +1,16 @@
+﻿###########################
+# Roman Events
+###########################
+
+add_namespace = rome
+
+country_event = {
+	id = rome.1
+	title = rome.1.t
+	desc = rome.1.d
+	
+	trigger = {
+	}
+
+
+}

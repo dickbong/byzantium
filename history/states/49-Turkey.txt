@@ -10,8 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		
+		owner = MXM
 		victory_points = {
 			11747 10 
 		}
@@ -21,7 +20,10 @@ state={
 			industrial_complex = 2
 			air_base = 3
 		}
-		add_core_of = TUR
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
 	}
 
 	provinces={

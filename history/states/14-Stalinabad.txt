@@ -3,12 +3,12 @@ state={
 	name="STATE_14"
 
 	history={
-		owner = SOV
+#
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
+#
 
 	}
 

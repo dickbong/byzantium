@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = IRE
+#
 		victory_points = {
 			11293 5 
 		}
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = IRE
+#
 
 	}
 

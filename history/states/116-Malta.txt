@@ -1,0 +1,26 @@
+state=
+{
+	id=116
+	name="STATE_116"
+	manpower = 241621
+	state_category = small_island
+	history= {
+		owner = SEV
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
+	}
+	provinces= { 12003 }
+}

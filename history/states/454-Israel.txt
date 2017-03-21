@@ -4,7 +4,7 @@ state={
 	name="STATE_454"
 
 	history={
-		owner = ENG
+		owner = MXM
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -21,8 +21,10 @@ state={
 		victory_points = {
 			4206 1 
 		}
-		add_core_of = PAL
-		add_core_of = ISR
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
 
 	}
 

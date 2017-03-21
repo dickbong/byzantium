@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = MXM
 		victory_points = {
 			890 1 
 		}
@@ -19,7 +19,10 @@ state={
 			}
 
 		}
-		add_core_of = TUR
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
 
 	}
 

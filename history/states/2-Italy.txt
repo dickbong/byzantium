@@ -4,7 +4,7 @@ state={
 	name="STATE_2"
 
 	history={
-		owner = ITA
+		owner = SEV
 		victory_points = {
 			9904 40 
 		}
@@ -26,15 +26,10 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 5
-
-			}
-
-		}
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
 
 	}
 

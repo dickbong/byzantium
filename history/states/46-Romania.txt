@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ROM
+#
 		victory_points = {
 			9617 20 
 		}
@@ -33,7 +33,7 @@ state={
 			dockyard = 1
 
 		}
-		add_core_of = ROM
+#
 
 	}
 
