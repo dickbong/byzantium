@@ -87,19 +87,43 @@ country_event = { #MXT comes back!
 	}
 	
 	mean_time_to_happen = {
-	days = 150
+	days = 250
 	}
 
 	option = {
 		name = rome.4.a
 		news_event = rome_news.4
 		SEV = { 
-			add_political_power = -150
+			add_political_power = -140
+			release = MXT
 		}
 		MXT = {
-			load_oob = MXT
-			declare_war_on = { target = SEV type = annex_everything }
-			MXT = { transfer_state = 1 }	
+			declare_war_on = { 
+				target = SEV 
+				type = annex_everything 
+			}
+			transfer_state = 1
+			transfer_state = 143
+			country_event = { 
+				days = 1 
+				id = rome.5 
+			}
+		}
+	}
+}
+
+country_event = { #Raise the levies
+	id = rome.5
+	title = rome.5.t
+	desc = rome.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	option = {
+		name = rome.5.a
+		MXT = {
+			load_oob = MXT 
 		}
 	}
 }

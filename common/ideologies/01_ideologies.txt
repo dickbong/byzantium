@@ -1,0 +1,147 @@
+ideologies = {
+
+	pagan = {
+	
+		types = {
+		
+			roman = {
+			}
+			
+			pagan = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PAGAN_1"
+			"FACTION_NAME_PAGAN_2"
+			"FACTION_NAME_PAGAN_3"
+			"FACTION_NAME_PAGAN_4"
+			"FACTION_NAME_PAGAN_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	christian = {
+	
+		types = {
+		
+			orthodox = {
+			}
+			
+			catholic = {
+			}
+			
+			christian = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PAGAN_1"
+			"FACTION_NAME_PAGAN_2"
+			"FACTION_NAME_PAGAN_3"
+			"FACTION_NAME_PAGAN_4"
+			"FACTION_NAME_PAGAN_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	other = {
+	
+		types = {
+		
+			other = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PAGAN_1"
+			"FACTION_NAME_PAGAN_2"
+			"FACTION_NAME_PAGAN_3"
+			"FACTION_NAME_PAGAN_4"
+			"FACTION_NAME_PAGAN_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+	
+	barbarian = {
+	
+		types = {
+		
+			other = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PAGAN_1"
+			"FACTION_NAME_PAGAN_2"
+			"FACTION_NAME_PAGAN_3"
+			"FACTION_NAME_PAGAN_4"
+			"FACTION_NAME_PAGAN_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+		}
+		
+		modifiers = {
+			
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+}
