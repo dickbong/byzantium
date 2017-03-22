@@ -19,7 +19,7 @@ ideologies = {
 			"FACTION_NAME_PAGAN_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 255 70 76 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -59,7 +59,7 @@ ideologies = {
 			"FACTION_NAME_PAGAN_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 100 70 255 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -93,7 +93,7 @@ ideologies = {
 			"FACTION_NAME_PAGAN_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 204 219 201 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -127,7 +127,7 @@ ideologies = {
 			"FACTION_NAME_PAGAN_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 100 80 50 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0

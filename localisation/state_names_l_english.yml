@@ -80,7 +80,7 @@
  STATE_79:0 "Moldova"
  STATE_80:0 "Bucovina"
  STATE_81:0 "Oltenia"
- STATE_82:0 "Banat"
+ STATE_82:1 "Illyricium"
  STATE_83:0 "Crisana"
  STATE_84:0 "Transylvania"
  STATE_85:0 "Danzig"

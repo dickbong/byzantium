@@ -87,7 +87,7 @@ country_event = { #MXT comes back!
 	}
 	
 	mean_time_to_happen = {
-	days = 250
+	days = 175
 	}
 
 	option = {
