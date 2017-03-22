@@ -4,36 +4,102 @@
 
 add_namespace = rome
 
-country_event = {
+country_event = { #Constantius Dies
 	id = rome.1
 	title = rome.1.t
 	desc = rome.1.d
+	fire_only_once = yes
 	
 	trigger = {
+		date > 306.1.1
+		date < 306.5.1
+		tag = CST
+	}
+	
+	mean_time_to_happen = {
+	days = 20
 	}
 
+	option = {
+		name = rome.1.a
+		news_event = rome_news.1
+		CST = {
+			kill_country_leader = yes	
+			set_cosmetic_tag = CST_dies
+			country_event = { days = 30 id = rome.2 }
+		}
+		SEV = {
+			set_cosmetic_tag = SEV_CST_dies
+		}
+	}
 
 }
 
-country_event = {
-	id = wars.1
-	title = wars.1.t
-	desc = wars.1.d
-	picture = GFX_report_event_soviet_soldiers
-
-	fire_only_once = no
-
-	trigger = {
-		has_capitulated = no
-	}
-	mean_time_to_happen = { days = 7 }
+country_event = { #Troops name Constantine Augustus
+	id = rome.2
+	title = rome.2.t
+	desc = rome.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
 
 	option = {
-		name = WAR
-		every_neighbor_country = {
-			declare_war_on = {
-			target = FROM
-			type = annex_everything
+		name = rome.2.a
+		news_event = rome_news.2
+		CST = { 
+			transfer_state = 176
+			country_event = { days = 30 id = rome.3 }
+		}
+		SEV = { 
+			add_ideas = disloyal_troops
+			add_political_power = -150
+		}
+	}
+}
+
+country_event = { #Galerius puts him in his place
+	id = rome.3
+	title = rome.3.t
+	desc = rome.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+
+
+	option = {
+		name = rome.3.a
+		news_event = rome_news.3
+		CST = { 
+			set_cosmetic_tag = CST_caesar
+		}
+	}
+}
+
+country_event = { #MXT comes back!
+	id = rome.4
+	title = rome.4.t
+	desc = rome.4.d
+	fire_only_once = yes
+	
+	trigger = {
+		date > 306.1.1
+		date < 307.1.1
+		tag = SEV
+	}
+	
+	mean_time_to_happen = {
+	days = 150
+	}
+
+	option = {
+		name = rome.4.a
+		news_event = rome_news.4
+		SEV = { 
+			add_political_power = -150
+		}
+		MXT = {
+			load_oob = MXT
+			declare_war_on = { target = SEV type = annex_everything }
+			MXT = { transfer_state = 1 }	
 		}
 	}
 }

@@ -1,0 +1,69 @@
+﻿###########################
+# Roman Events
+###########################
+
+add_namespace = rome_news
+
+# Constantius Dies
+news_event = {
+	id = rome_news.1
+	title = rome_news.1.t
+	desc = rome_news.1.d
+	picture = GFX_rome_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.1.a
+	}
+}
+
+# Constantine Augustus
+news_event = {
+	id = rome_news.2
+	title = rome_news.2.t
+	desc = rome_news.2.d
+	picture = GFX_rome_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.2.a
+	}
+}
+
+# Galerius makes Constantine caesar
+news_event = {
+	id = rome_news.3
+	title = rome_news.3.t
+	desc = rome_news.3.d
+	picture = GFX_rome_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.3.a
+	}
+}
+
+# MXT comes back
+news_event = {
+	id = rome_news.4
+	title = rome_news.4.t
+	desc = rome_news.4.d
+	picture = GFX_rome_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.4.a
+	}
+}

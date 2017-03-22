@@ -1,2 +1,29 @@
 ﻿l_english:
+ rome.1.t:0 "Constantius Dies"
+ rome.1.d:0 "Unfortunately our late Augustus: Constantius, has perished. With his passing, a new successor, Constantine born of Helena, Constantius' divorced wife. Constantine will oversee the place of his predecessor, but can he keep the peace within the Roman Empire?"
+ rome.1.a:0 "What a shame."
+ rome_news.1.t:0 "Augustus Constantius Dies"
+ rome_news.1.d:0 "Unfortunately the late Augustus: Constantius, has perished. With his passing, a new successor, Constantine born of Helena, Constantius' divorced wife. Constantine will oversee the place of his predecessor, but can he keep the peace within the Roman Empire?"
+ rome_news.1.a:0 "What a shame."
+ 
+ rome.2.t:0 "Our Troops Proclaim Constantine Augustus"
+ rome.2.d:0 "With the passing of Constantius, troops in Hispaniae, Gaul, and even Britiannae are proclaiming Constantine the new Augustus. Surely Severus will be displeased with the change of territory."
+ rome.2.a:0 "Grand!"
+ rome_news.2.t:0 "Constantine Claims Augustus"
+ rome_news.2.d:0 "With the passing of Constantius, troops in Hispaniae, Gaul, and even Britiannae are proclaiming Constantine the new Augustus. "The Legion's loyalty to their Caesars and Augusti, but not to Rome, is truly frightening." -a senator reported. Many speculate the disloyalty to spark new conflict within the Roman Empire."
+ rome_news.2.a:0 "Interesting."
+ 
+ rome.3.t:0 "Galerius Reappoints Constantine as Caesar"
+ rome.3.d:0 "With our troops' proclaimation of Constantine, our new leader, as Augustus, Galerius, de jure Augustus of the east has appointed Constantine as Caesar. Although Constantine deserves a better title, it'll have to do for now."
+ rome.3.a:0 "Unfortunate."
+ rome_news.3.t:0 "Galerius Appoints Caesar"
+ rome_news.3.d:0 "With the passing of Constantius, troops in Hispaniae, Gaul, and even Britiannae are proclaiming Constantine the new Augustus. Galerius flexed his influence and proclaimed Constantine Caesar even though he had tremendous military support as Augustus."
+ rome_news.3.a:0 "[CST.GetLeader] will have to wait."
+ 
+ rome.4.t:0 "Maximian Seeks to Usurp our Throne!"
+ rome.4.d:0 "Impossibly, Maximian, the retired Augustus to Diocletian, the emperor who formed the tetrarchy, has returned. He brings with him his son, Maxentius. Together, they seek to dethrone our Augustus, Severus. We must bolster what troops we have left and defend our lands!"
+ rome.4.a:0 "The Bastards!"
+ rome_news.4.t:0 "Maximian Seeks to Dethrone Severus"
+ rome_news.4.d:0 "Severus calls upon the last of his levis as the enormous onslaught of Maximian and Maxentius seek to become co-Augusti. Galerius looks to keep the peace within the empire and dethrone Maximian and Maxentius. Surprisingly, Galerius, Maximinus, and Constantine have decided not to intervene on a large scale to avoid another civil war."
+ rome_news.4.a:0 "[CST.getleader] will have to wait."
  

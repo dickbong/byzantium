@@ -1,0 +1,99 @@
+﻿division_template = {
+	name = "Legion"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		 
+	}
+}
+division_template = {
+	name = "Cavalry"  	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		
+	}
+}
+
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 9900 # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 12066  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 12098  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 10027  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 9856  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 11837  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 11998  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+units = {
+	division= {	
+		name = "Legionnarie"
+		location = 6979  # Hoeselt
+		division_template = "Legion"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+	}
+
