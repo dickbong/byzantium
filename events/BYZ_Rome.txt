@@ -14,3 +14,26 @@ country_event = {
 
 
 }
+
+country_event = {
+	id = wars.1
+	title = wars.1.t
+	desc = wars.1.d
+	picture = GFX_report_event_soviet_soldiers
+
+	fire_only_once = no
+
+	trigger = {
+		has_capitulated = no
+	}
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = WAR
+		every_neighbor_country = {
+			declare_war_on = {
+			target = FROM
+			type = annex_everything
+		}
+	}
+}

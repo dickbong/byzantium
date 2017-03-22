@@ -1,0 +1,39 @@
+﻿###########################
+# Barbarian Events
+###########################
+
+add_namespace = barbarian
+
+country_event = {
+	id = barbarian.1
+	title = barbarian.1.t
+	desc = barbarian.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		has_capitulated = no
+		has_government = barbarian
+	}
+	
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = barbarian.1.a
+		every_neighbor_country = {
+			limit = {
+				NOT = {
+					TAG = CST
+					TAG = GAE
+					TAG = SEV
+					TAG = MXM
+					TAG = MXT
+					TAG = LIC
+				}
+			}
+			declare_war_on = {
+			target = FROM
+			type = annex_everything
+			}
+		}
+	}
+}
