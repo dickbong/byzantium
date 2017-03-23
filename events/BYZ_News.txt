@@ -67,3 +67,73 @@ news_event = {
 		name = rome_news.4.a
 	}
 }
+
+# ???
+news_event = {
+	id = rome_news.5
+	title = rome_news.5.t
+	desc = rome_news.5.d
+	picture = GFX_rome_news_event_005
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.5.a
+	}
+}
+
+# MXT appoints CST augustus
+news_event = {
+	id = rome_news.6
+	title = rome_news.6.t
+	desc = rome_news.6.d
+	picture = GFX_rome_news_event_006
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.6.a
+	}
+}
+
+# SEV executed
+news_event = {
+	id = rome_news.7
+	title = rome_news.7.t
+	desc = rome_news.7.d
+	picture = GFX_rome_news_event_007
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.7.a
+	}
+	option = {
+		name = rome_news.7.b
+		trigger = {
+			TAG = MXT
+		}
+	}
+}
+
+# MXT comes back
+news_event = {
+	id = rome_news.8
+	title = rome_news.8.t
+	desc = rome_news.8.d
+	picture = GFX_rome_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rome_news.8.a
+	}
+}

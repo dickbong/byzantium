@@ -14,8 +14,9 @@
  rome_news.2.a:0 "Interesting."
  
  rome.3.t:0 "Galerius Reappoints Constantine as Caesar"
- rome.3.d:0 "With our troops' proclaimation of Constantine, our new leader, as Augustus, Galerius, de jure Augustus of the east has appointed Constantine as Caesar. Although Constantine deserves a better title, it'll have to do for now."
- rome.3.a:0 "Unfortunate."
+ rome.3.d:0 "With Constantine's claim on the title of Augustus could erupt into conflict if we do nothing about it. What say that we put him back in his rightful place?"
+ rome.3.a:0 "Perhaps."
+ rome.3.a:0 "Let him be."
  rome_news.3.t:0 "Galerius Appoints Caesar"
  rome_news.3.d:0 "With the passing of Constantius, troops in Hispaniae, Gaul, and even Britiannae are proclaiming Constantine the new Augustus. Galerius flexed his influence and proclaimed Constantine Caesar even though he had tremendous military support as Augustus."
  rome_news.3.a:0 "[CST.GetLeader] will have to wait."
@@ -25,5 +26,25 @@
  rome.4.a:0 "The Bastards!"
  rome_news.4.t:0 "Maximian Seeks to Dethrone Severus"
  rome_news.4.d:0 "Severus calls upon the last of his levis as the enormous onslaught of Maximian and Maxentius seek to become co-Augusti. Galerius looks to keep the peace within the empire and dethrone Maximian and Maxentius. Surprisingly, Galerius, Maximinus, and Constantine have decided not to intervene on a large scale to avoid another civil war."
- rome_news.4.a:0 "[CST.getleader] will have to wait."
+ rome_news.4.a:0 "[CST.GetLeader] will have to wait."
+ 
+ rome.5.t:0 "Raise the Levies!"
+ rome.5.d:0 "We have successfully grasped the sourthern provinces of Italia and all that is left is to put the poor bastard out of his misery! This means war, [SEV.GetLeader]!"
+ rome.5.a:0 "Down with [SEV.GetLeader]!"
+  
+ rome.6.t:0 "Appoint Constantine Augustus?"
+ rome.6.d:0 "In order to cement relation with Constantine, we could appoint him his title the bastard Severus stole from him."
+ rome.6.a:0 "Flatter Augustus Constantine."
+ rome.6.b:0 "He shall still be Caesar Constantine."
+ rome_news.6.t:0 "Maxentius Appoints Augustus"
+ rome_news.6.d:0 "In a deft move, the de facto co-Augusti have proclaimed [CST.GetLeader] as the Augustus of the West. Although their claims illegitimate, this might be the foundations of an alliance between [MXT.GetLeader] and [CST.GetLeader], no?"
+ rome_news.6.a:0 "Interesting."
+ 
+ rome.7.t:0 "Severus Executed"
+ rome.7.d:0 "At long last the bastard Severus has been found. The coward was taken to Rome, and executed, giving us his de facto title. With Severus out of the way, we can turn our focus to consolidating ourselves as the one true Emperor!"
+ rome.7.a:0 "Hail [MXT.GetLeader]!"
+ rome_news.7.t:0 "Severus Executed"
+ rome_news.7.d:0 "In a seemingly vulgar way, Severus was executed today in Rome by [MXT.GetLeader]. Unfortunately this grants him the de facto position the late Severus once had. Senators fear that this will lead to only more conflict."
+ rome_news.7.a:0 "..."
+ rome_news.7.b:0 "Huzzah!"
  

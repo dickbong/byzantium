@@ -48,11 +48,13 @@ country_event = { #Troops name Constantine Augustus
 		news_event = rome_news.2
 		CST = { 
 			transfer_state = 176
-			country_event = { days = 30 id = rome.3 }
 		}
 		SEV = { 
 			add_ideas = disloyal_troops
 			add_political_power = -150
+		}
+		GAE = {
+			country_event = { days = 30 id = rome.3 }
 		}
 	}
 }
@@ -68,9 +70,22 @@ country_event = { #Galerius puts him in his place
 	option = {
 		name = rome.3.a
 		news_event = rome_news.3
+		ai_chance = { factor = 99 }
 		CST = { 
 			set_cosmetic_tag = CST_caesar
+			add_opinion_modifier = { target = GAE modifier = small_decrease }
 		}
+		set_global_flag = CST_caesar
+	}
+	
+	option = {
+		name = rome.3.b
+		ai_chance = { factor = 0 }
+		CST = { 
+			set_cosmetic_tag = CST_augustus
+			add_opinion_modifier = { target = GAE modifier = small_increase }
+		}
+		set_global_flag = CST_caesar
 	}
 }
 
@@ -84,10 +99,11 @@ country_event = { #MXT comes back!
 		date > 306.1.1
 		date < 307.1.1
 		tag = SEV
+		has_global_flag = CST_caesar
 	}
 	
 	mean_time_to_happen = {
-	days = 175
+	days = 100
 	}
 
 	option = {
@@ -115,5 +131,66 @@ country_event = { #Raise the levies
 			load_oob = MXT 
 		}
 		MXT = { declare_war_on = { target = SEV type = annex_everything } }
+		set_global_flag = MXT_invasion
+	}
+}
+
+country_event = { #M&M name Constantine Augustus
+	id = rome.6
+	title = rome.6.t
+	desc = rome.6.d
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = SEV_defeated
+		tag = MXT
+	}
+	
+	mean_time_to_happen = {
+		days = 50
+	}
+
+
+	option = {
+		name = rome.6.a
+		news_event = rome_news.6
+		CST = { 
+			set_cosmetic_tag = CST_augustus
+		}
+		add_opinion_modifier = { target = CST modifier = medium_increase }
+		add_opinion_modifier = { target = GAE modifier = large_decrease }
+		GAE = {
+			set_country_flag = increased_dethroning
+		}
+	}
+	option = {
+		name = rome.6.b
+	}
+}
+
+country_event = {
+	id = rome.7
+	title = rome.7.t
+	desc = rome.7.d
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MXT
+		SEV = {
+			OR = {
+				has_capitulated = yes
+				surrender_progress > 0.6	
+			}
+		}
+	}
+	
+	option = {
+		news_event = rome_news.7
+		name = rome.7.a
+		annex_country = { target = SEV }
+		SEV = {
+			kill_country_leader = yes
+		}
+		set_global_flag = SEV_defeated
 	}
 }
