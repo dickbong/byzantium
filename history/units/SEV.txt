@@ -1,0 +1,237 @@
+﻿division_template = {
+	name = "Legion"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		 
+	}
+}
+division_template = {
+	name = "Cavalry"  	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		
+	}
+}
+##SPAIN##
+units = {
+
+division = {			
+		name = "Legion"		
+		location = 3938  # Madrid
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 7183  # Sevilla
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 6906  # Valencia
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 9764  # Barcelona
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 3816  # Zaragosa
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 885  # Burgos
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 11825  # Valladolid
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}			
+	division = {			
+		name = "Legion"		
+		location = 758  # La Coruña
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division= {	
+		name = "4a Legion 'Livorno'"
+		location = 11721
+		division_template = "Legion"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4a Cavalry 'Cuneense'"
+		location = 11721
+		division_template = "Cavalry"
+		start_experience_factor = 0.3
+	}
+
+	# III Corpo d'Armata #
+	division= {	
+		name = "3a Legion 'Ravenna'"
+		location = 11891
+		division_template = "Legion"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6a Legion 'Cuneo'"
+		location = 11891
+		division_template = "Legion"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	
+	## 4a Armata ##
+	# Corpo d'Armata Alpina #
+	division= {	
+		name = "1a Legion 'Taurinense'"
+		location = 9738
+		division_template = "Legion"
+		start_experience_factor = 0.3
+	}
+
+	# I Corpo d'Armata #
+	division= {	
+		name = "1a Legion 'Superga'"
+		location = 6780
+		division_template = "Legion"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2a Legion 'Tridentina'"
+		location = 6780
+		division_template = "Legion"
+		start_experience_factor = 0.3
+	}
+
+	# IV Corpo d'Armata #
+	division= {	
+		name = "2a Legion 'Sforzesca'"
+		location = 611
+		division_template = "Legion"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+
+	### Gruppo d'Armata Est ###
+	## 2a Armata ##
+	# V Corpo d'Armata #
+	division= {	
+		name = "9a Legion 'Pasubio'"
+		location = 11735
+		division_template = "Legion"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# VI Corpo d'Armata #
+	division= {	
+		name = "8a Legion 'Po'"
+		location = 628
+		division_template = "Legion"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "3a Legion 'Julia'"
+		location = 628
+		division_template = "Legion"
+		start_experience_factor = 0.3
+	}
+
+	# Subordinate to Army
+	division= {	
+		name = "2° Raggruppamento Celere"
+		location = 6626
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	## 6a Armata ##
+	# Corpo d'Armata Celere #
+	division= {	
+		name = "1a Divisione Celere 'Eugenio di Savoia'"
+		location = 11584
+		division_template = "Legion"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2a Divisione Celere 'Emanuele Filiberto'"
+		location = 11584
+		division_template = "Legion"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3a Divisione Celere 'Principe Amedeo'"
+		location = 11584
+		division_template = "Legion"	
+		start_experience_factor = 0.3
+	}
+
+	### Gruppo d'Armata Sud ###
+	# VII Corpo d'Armata #
+	division= {	
+		name = "20a Legion 'Friuli'"
+		location = 4159
+		division_template = "Legion"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "25a Legion 'Bologna'"
+		location = 10074
+		division_template = "Cavalry"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+}

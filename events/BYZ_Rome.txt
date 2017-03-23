@@ -94,21 +94,10 @@ country_event = { #MXT comes back!
 		name = rome.4.a
 		news_event = rome_news.4
 		SEV = { 
-			add_political_power = -140
+			add_political_power = -150
 			release = MXT
 		}
-		MXT = {
-			declare_war_on = { 
-				target = SEV 
-				type = annex_everything 
-			}
-			transfer_state = 1
-			transfer_state = 143
-			country_event = { 
-				days = 1 
-				id = rome.5 
-			}
-		}
+		MXT = { country_event = { days = 1 id = rome.5 } }
 	}
 }
 
@@ -125,5 +114,6 @@ country_event = { #Raise the levies
 		MXT = {
 			load_oob = MXT 
 		}
+		MXT = { declare_war_on = { target = SEV type = annex_everything } }
 	}
 }

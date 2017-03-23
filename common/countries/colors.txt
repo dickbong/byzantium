@@ -532,3 +532,11 @@ MXM = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
+MXT = {
+	color = rgb { 118  47  249 }
+	color_ui = rgb { 118  47  249 }
+}
+GAE = {
+	color = rgb { 172  53  252 }
+	color_ui = rgb { 172  53  252 }
+}

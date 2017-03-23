@@ -27,7 +27,7 @@ ideologies = {
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
-			can_puppet = yes
+			can_puppet = no
 		}
 		
 		modifiers = {
@@ -67,7 +67,7 @@ ideologies = {
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
-			can_puppet = yes
+			can_puppet = no
 		}
 		
 		modifiers = {
@@ -101,7 +101,7 @@ ideologies = {
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
-			can_puppet = yes
+			can_puppet = no
 		}
 		
 		modifiers = {
