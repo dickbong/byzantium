@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	############
+	# Stability
+	############
+	
+	spriteType = {
+		name = "GFX_idea_disaster"
+		texturefile = "gfx/interface/stability_disaster.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_low_stability"
+		texturefile = "gfx/interface/stability_very_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_stability"
+		texturefile = "gfx/interface/stability_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_normal_stability"
+		texturefile = "gfx/interface/stability_average.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_good_stability"
+		texturefile = "gfx/interface/stability_high2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_good_stability"
+		texturefile = "gfx/interface/stability_very_high.dds"
+	}
+	
+}

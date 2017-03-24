@@ -1,0 +1,377 @@
+﻿###########################
+# Political Events
+###########################
+# By DK, Nijato and Zankoas
+###########################
+#ALL CREDITS FOR THE STABILITY SYSTEM GO TO KAISERREICH
+#EXPLICIT PERMISSION WAS GIVEN TO USE THIS BY ZANKOAS
+
+add_namespace = stability
+
+### Decrease
+country_event = { #Go down to good stab
+	id = stability.1
+	title = stability.1.t
+	desc = stability.1.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power < 0
+		has_idea = very_good_stability
+	}
+
+	mean_time_to_happen = {
+		days = 50
+
+		modifier = {
+			factor = 0.75
+			has_political_power < -100
+			has_political_power > -199
+		}
+		modifier = {
+			factor = 0.2
+			has_political_power < -200
+		}
+	}
+
+	option = {
+		name = stability.1.a
+		hidden_effect = { remove_ideas = very_good_stability }
+		add_ideas = good_stability
+		set_country_flag = good_stability
+
+	}
+}
+
+country_event = { #Go down to normal stab
+	id = stability.2
+	title = stability.2.t
+	desc = stability.2.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power < 0
+		has_idea = good_stability
+	}
+
+	mean_time_to_happen = {
+		days = 75
+
+		modifier = {
+			factor = 0.75
+			has_political_power < -150
+			has_political_power > -299
+		}
+		modifier = {
+			factor = 0.1
+			has_political_power < -300
+		}
+	}
+
+	option = {
+		name = stability.2.a
+			hidden_effect = { remove_ideas = good_stability }
+			add_ideas = normal_stability
+			set_country_flag = normal_stability
+			clr_country_flag = good_stability
+
+	}
+}
+
+country_event = { #Go down to low stab
+	id = stability.3
+	title = stability.3.t
+	desc = stability.3.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power < -50
+		has_idea = normal_stability
+	}
+
+	mean_time_to_happen = {
+		days = 75
+
+		modifier = {
+			factor = 0.75
+			has_political_power < -200
+			has_political_power > -399
+		}
+		modifier = {
+			factor = 0.2
+			has_political_power < -400
+		}
+	}
+
+	option = {
+		name = stability.3.a
+		hidden_effect = { remove_ideas = normal_stability }
+		add_ideas = low_stability
+		clr_country_flag = normal_stability
+	}
+}
+
+country_event = { #Go down to very low stab
+	id = stability.4
+	title = stability.4.t
+	desc = stability.4.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power < -250
+		has_idea = low_stability
+	}
+
+	mean_time_to_happen = {
+		days = 75
+
+		modifier = {
+			factor = 0.5
+			has_political_power < -400
+			has_political_power > -599
+		}
+		modifier = {
+			factor = 0.2
+			has_political_power < -600
+		}
+	}
+
+	option = {
+		name = stability.4.a
+		hidden_effect = { remove_ideas = low_stability }
+		add_ideas = very_low_stability
+		
+	}
+}
+
+country_event = { #Go down to disaster
+	id = stability.5
+	title = stability.5.t
+	desc = stability.5.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power < -500
+		has_idea = very_low_stability
+	}
+
+	mean_time_to_happen = {
+		days = 75
+
+		modifier = {
+			factor = 0.5
+			has_political_power < -700
+			has_political_power > -999
+		}
+		modifier = {
+			factor = 0.1
+			has_political_power < -1000
+		}
+	}
+
+	option = {
+		name = stability.5.a
+		hidden_effect = { remove_ideas = very_low_stability }
+		add_ideas = disaster
+		
+	}
+}
+
+### Increase
+country_event = { #Go up to very low stab
+	id = stability.6
+	title = stability.6.t
+	desc = stability.6.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power > -500
+		has_idea = disaster
+	}
+
+	mean_time_to_happen = {
+		days = 90
+		modifier = {
+			factor = 0.75
+			has_political_power > -300
+			has_political_power < -251
+		}
+		modifier = {
+			factor = 0.5
+			has_political_power > -250
+		}
+	}
+
+	option = {
+		name = stability.6.a
+		hidden_effect = { remove_ideas = disaster }
+		add_ideas = very_low_stability
+	}
+}
+
+country_event = { #Go up to low stab
+	id = stability.7
+	title = stability.7.t
+	desc = stability.7.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power > -250
+		has_idea = very_low_stability
+	}
+
+	mean_time_to_happen = {
+		days = 75
+		modifier = {
+			factor = 0.75
+			has_political_power > -60
+			has_political_power < -1
+		}
+		modifier = {
+			factor = 0.5
+			has_political_power > 0
+		}
+	}
+
+	option = {
+		name = stability.7.a
+		hidden_effect = { remove_ideas = very_low_stability }
+		add_ideas = low_stability
+		
+	}
+}
+
+country_event = { #Go up to normal stab
+	id = stability.8
+	title = stability.8.t
+	desc = stability.8.d
+	picture = GFX_petain_NFA
+
+	trigger = {
+		has_political_power > -50
+		has_idea = low_stability
+	}
+
+	mean_time_to_happen = {
+		days = 15
+		modifier = {
+			factor = 0.75
+			has_political_power > 200
+			has_political_power < 299
+		}
+		modifier = {
+			factor = 0.5
+			has_political_power > 300
+		}
+	}
+
+	option = {
+		name = stability.8.a
+		hidden_effect = { remove_ideas = low_stability }
+		add_ideas = normal_stability
+		set_country_flag = normal_stability
+	}
+}
+
+country_event = { #Informal event: Go up to good stab
+	id = stability.9
+	title = stability.9.t
+	desc = stability.9.d
+	picture = GFX_petain_NFA
+
+	fire_only_once = yes
+
+	trigger = {
+		has_political_power > 150
+		has_idea = normal_stability
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = stability.9.a
+	}
+}
+
+country_event = { #Check for good stab
+	id = stability.10
+	title = stability.10.t
+	desc = stability.10.d
+	picture = GFX_petain_NFA
+
+	fire_only_once = no
+
+	hidden = yes
+
+	trigger = {
+		has_idea = good_stability
+		NOT = { has_country_flag = good_stability }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = stability.10.a
+		clr_country_flag = normal_stability
+		set_country_flag = good_stability
+	}
+}
+
+#country_event = { #Go up to very good stab
+	#id = stability.10
+	#title = stability.10.t
+	#desc = stability.10.d
+	#picture = GFX_petain_NFA
+
+	#trigger = {
+		#has_political_power > 150
+		#has_idea = good_stability
+	#}
+
+	#mean_time_to_happen = {
+		#days = 150
+	#}
+
+	#option = {
+		#name = stability.10.a
+		#ai_chance = { factor = 25 }
+		#add_political_power = -150
+			#hidden_effect = { remove_ideas = good_stability }
+			#add_ideas = very_good_stability
+	#}
+	#option = {
+		#name = stability.10.b
+		#ai_chance = { factor = 75 }
+
+	#}
+#}
+
+country_event = {
+	id = stability.31 #set normal stability flag for newly released countries
+	title = stability.30.t
+	desc = stability.30.d
+	hidden = yes
+
+	trigger = {
+		date > 1936.10.1
+		has_idea = normal_stability
+		NOT = { has_country_flag = normal_stability }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = stability.30.a
+		every_country = {
+			limit = { has_idea = normal_stability }
+			set_country_flag = normal_stability
+		}
+	}
+
+}

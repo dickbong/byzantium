@@ -10,7 +10,8 @@ state={
 		owner = GAE
 		buildings = {
 			infrastructure = 4
-
+			arms_factory = 1
+			industrial_complex = 3
 		}
 		add_claim_by = BUL
 		add_core_of = CST

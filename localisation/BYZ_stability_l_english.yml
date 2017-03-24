@@ -1,0 +1,61 @@
+﻿l_english:
+
+### Stability ###
+disaster:0 "Disaster"
+disaster_desc:0 "You'll eventually end up in a disaster if you let your political power go under §Y-500§! and you'll have to pass above this number to go up to very low stability again."
+very_low_stability:0 "Very Low Stability"
+very_low_stability_desc:0 "You'll eventually end up at very low stability if you let your political power go under §Y-250§! and you'll have to pass above this number to go up to low stability again."
+low_stability:0 "Low Stability"
+low_stability_desc:0 "You'll eventually end up at low stability if you let your political power go under §Y-50§! and you'll have to pass above this number to go up to average stability again."
+normal_stability:0 "Average Stability"
+normal_stability_desc:0 "The standard level of stability."
+good_stability:0 "Good Stability"
+good_stability_desc:0 "You'll eventually get an event asking you if you want to go up to good stability if your political power is above §Y+150§! and you'll go down to average stability again if you let your political power go under §Y0§!."
+very_good_stability:0 "Very Good Stability"
+very_good_stability_desc:0 "You'll eventually get an event asking you if you want to go up to very good stability if your political power is above §Y+150§! and you'll go down to good stability again if you let your political power go under §Y0§!."
+stability:0 "Stability"
+
+### Stability Effect ###
+EFFECT_CHANGE_LAW_stability:0 "Change our country's stability to '$NAME|Y$' which grants ($DESC$)."
+
+### Stability Events ###
+stability.1.t:0 "Downfall in Stability"
+stability.1.d:0 "With the lack of political power, our country has destabilised, we're not as stable as before."
+stability.1.a:0 "We will overcome this."
+
+stability.2.t:0 "Downfall in Stability"
+stability.2.d:0 "With the lack of political power, our country has destabilised a bit, we're now on the brink of instability."
+stability.2.a:0 "Terrible."
+
+stability.3.t:0 "Downfall in Stability"
+stability.3.d:0 "With the lack of political power, our country has destabilised and needs to recover."
+stability.3.a:0 "It's only a temporary situation."
+
+stability.4.t:0 "Downfall in Stability"
+stability.4.d:0 "With the lack of political power, our country has destabilised even more. Riots and strikes are beginning to shape up everywhere in the country, and the government is struggling to assert its authority."
+stability.4.a:0 "That doesn't sound good..."
+
+stability.5.t:0 "Downfall in Stability"
+stability.5.d:0 "With the lack of political power, our country has plunged into a disaster. The situation is by all means catastrophic, and we're struggling to keep our grasp on the country."
+stability.5.a:0 "It's disastrous!"
+
+stability.6.t:0 "Increase in Stability"
+stability.6.d:0 "With our Political Power recovered, we managed to get out of our calamitous situation, our country is on the path of recovery."
+stability.6.a:0 "Hurrah!"
+
+stability.7.t:0 "Increase in Stability"
+stability.7.d:0 "With our Political Power recovered, we managed to somewhat stabilise our country but we're not completely out of trouble yet."
+stability.7.a:0 "Very good."
+
+stability.8.t:0 "Increase in Stability"
+stability.8.d:0 "With our Political Power recovered, we finally got out of the bad situation we got us in. Hopefully it won't happen again."
+stability.8.a:0 "The [Root.GetAdjective] nation is strong."
+
+stability.9.t:0 "Potential Increase in Stability"
+stability.9.d:0 "With our Political Power gains we now have the chance to improve our stability. \n\nTo get to a higher than average stability level you'll have to take the corresponding law in the stability screen, it will cost 150PP to go one level higher and remember that you can still loose those bonuses after some time if your PP goes below zero. \nDon't worry this message won't fire again."
+stability.9.a:0 "Got it"
+
+#stability.10.t:0 "Potential Increase in Stability"
+#stability.10.d:0 "With our Political Power gains we have the chance to improve our stability even further. Shall we do it?"
+#stability.10.a:0 "Of course!"
+#stability.10.b:0 "We don't need that."

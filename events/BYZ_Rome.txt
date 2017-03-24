@@ -132,6 +132,12 @@ country_event = { #Raise the levies
 		}
 		MXT = { declare_war_on = { target = SEV type = annex_everything } }
 		set_global_flag = MXT_invasion
+		every_owned_state = {
+			limit = {
+				is_core_of = SEV
+			}
+			add_core_of = MXT
+		}
 	}
 }
 
@@ -179,7 +185,8 @@ country_event = {
 		SEV = {
 			OR = {
 				has_capitulated = yes
-				surrender_progress > 0.6	
+				surrender_progress > 0.6
+				exists = no
 			}
 		}
 	}
