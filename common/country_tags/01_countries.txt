@@ -7,4 +7,7 @@ MXT = "countries/Maxentius.txt"
 SEV = "countries/Severus.txt"
 #European Tribes
 PIC = "countries/Picts.txt"
+IRI = "countries/Irish.txt"
+FNN = "countries/Finns.txt"
+SLV = "countries/Slavs.txt"
 #Other
