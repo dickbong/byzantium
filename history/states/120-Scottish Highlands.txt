@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-#
+		owner = PIC
 		victory_points = {
 			11064 1 
 		}
@@ -28,7 +28,7 @@ state={
 			}
 
 		}
-#
+		add_core_of = PIC
 
 	}
 

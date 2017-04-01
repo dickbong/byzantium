@@ -540,3 +540,6 @@ GAE = {
 	color = rgb { 172  53  252 }
 	color_ui = rgb { 172  53  252 }
 }
+PIC = {
+	color = rgb { 65 175 179 }
+	color_ui = rgb { 85 228 233 }
