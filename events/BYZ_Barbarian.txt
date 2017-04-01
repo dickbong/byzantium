@@ -13,9 +13,10 @@ country_event = {
 	trigger = {
 		has_capitulated = no
 		has_government = barbarian
+		at_war = no
 	}
 	
-	mean_time_to_happen = { days = 14 }
+	mean_time_to_happen = { days = 100 }
 
 	option = {
 		name = barbarian.1.a
@@ -31,8 +32,8 @@ country_event = {
 				}
 			}
 			declare_war_on = {
-			target = FROM
-			type = annex_everything
+				target = FROM
+				type = annex_everything
 			}
 		}
 	}

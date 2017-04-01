@@ -115,7 +115,7 @@ ideologies = {
 	
 		types = {
 		
-			other = {
+			barbarian = {
 			}
 		}
 		

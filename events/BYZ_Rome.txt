@@ -113,7 +113,9 @@ country_event = { #MXT comes back!
 			add_political_power = -150
 			release = MXT
 		}
-		MXT = { country_event = { days = 1 id = rome.5 } }
+		hidden_effect = {
+			MXT = { country_event = { days = 1 id = rome.5 } }
+		}
 	}
 }
 
@@ -132,12 +134,15 @@ country_event = { #Raise the levies
 		}
 		MXT = { declare_war_on = { target = SEV type = annex_everything } }
 		set_global_flag = MXT_invasion
-		every_owned_state = {
-			limit = {
-				is_core_of = SEV
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					is_core_of = SEV
+				}
+				add_core_of = MXT
 			}
-			add_core_of = MXT
 		}
+		
 	}
 }
 
@@ -174,7 +179,7 @@ country_event = { #M&M name Constantine Augustus
 	}
 }
 
-country_event = {
+country_event = { #Severus Executed
 	id = rome.7
 	title = rome.7.t
 	desc = rome.7.d
@@ -199,5 +204,56 @@ country_event = {
 			kill_country_leader = yes
 		}
 		set_global_flag = SEV_defeated
+	}
+}
+
+country_event = { #Conference of Carnuntum
+	id = rome.8
+	title = rome.8.t
+	desc = rome.8.d
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GAE
+		OR = {
+			has_global_flag = SEV_defeated
+			AND = {
+				date > 308.1.1
+				SEV = {
+					OR = {
+						has_capitulated = yes
+						surrender_progress > 0.6
+					}	
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		release = LIC
+		every_owned_state = {
+			limit = {
+				is_core_of = SEV
+			}
+			add_core_of = MXT
+		}
+		LIC = { transfer_state = 353 }
+		LIC = { transfer_state = 353 }
+		CST = {
+			set_cosmetic_tag = CST_caesar
+		}
+	}
+	
+	option = {
+		news_event = rome_news.8
+		name = rome.8.a
+		add_political_power = -150
+	}
+	
+	option = {
+		news_event = rome_news.8
+		name = rome.8.a
+		release = LIC
+		add_political_power = -150
 	}
 }
