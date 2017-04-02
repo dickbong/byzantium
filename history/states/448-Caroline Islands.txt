@@ -2,40 +2,45 @@
 state={
 	id=448
 	name="STATE_448"
-	manpower=42357
-	state_category = small_island
 
 	history={
-#
-#
 		buildings = {
 			infrastructure = 3
 			air_base = 3
 			2489 = {
 				naval_base = 6
 				coastal_bunker = 5
+
 			}
 			13028 = {
 				naval_base = 1
+
 			}
 			13030 = {
 				naval_base = 1
+
 			}
 			13031 = {
 				naval_base = 1
+
 			}
 			13032 = {
 				naval_base = 1
+
 			}
 			13034 = {
 				naval_base = 1
+
 			}
 			13035 = {
 				naval_base = 1
+
 			}
 			13036 = {
 				naval_base = 1
+
 			}
+
 		}
 		victory_points = {
 			2489 5 
@@ -47,6 +52,9 @@ state={
 	}
 
 	provinces={
-		2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 
+		2489 13029 13030 13031 13032 13033 13034 13035 13036 
 	}
+	manpower=42357
+	buildings_max_level_factor=1.000
+	state_category=small_island
 }
