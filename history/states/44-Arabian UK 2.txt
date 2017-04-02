@@ -2,12 +2,8 @@
 state={
 	id=44
 	name="STATE_44"
-	manpower = 891505
-
-	state_category = pastoral
 
 	history={
-#
 		victory_points = {
 			5074 1 
 		}
@@ -16,15 +12,21 @@ state={
 			air_base = 4
 			5074 = {
 				naval_base = 3
+
 			}
 			8000 = {
 				naval_base = 1
+
 			}
+
 		}
-#
+
 	}
 
 	provinces={
-		2029 4976 5074 8000 12821 12894 13079 
+		7477 
 	}
+	manpower=891505
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

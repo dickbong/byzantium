@@ -8,7 +8,6 @@ state={
 	}
 
 	history={
-#
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -17,18 +16,15 @@ state={
 		victory_points = {
 			688 10 
 		}
-#
 		1938.3.12 = {
-#
 			controller = GER
-#
 
 		}
 
 	}
 
 	provinces={
-		732 6552 6723 
+		6552 
 	}
 	manpower=2275377
 	buildings_max_level_factor=1.000

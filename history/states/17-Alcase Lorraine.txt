@@ -7,7 +7,6 @@ state={
 	}
 
 	history={
-#
 		victory_points = {
 			9642 5 
 		}
@@ -20,12 +19,11 @@ state={
 			air_base = 5
 
 		}
-#
 
 	}
 
 	provinces={
-		521 698 6698 11516 11642 
+		11088 
 	}
 	manpower=1517500
 	buildings_max_level_factor=1.000

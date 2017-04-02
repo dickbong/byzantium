@@ -2,16 +2,11 @@
 state={
 	id=185
 	name="STATE_185"
-	manpower = 220000
 	resources={
-		oil=6
+		oil=6.000
 	}
-	
-	state_category = pastoral
-
 
 	history={
-#
 		victory_points = {
 			7960 1 
 		}
@@ -19,15 +14,21 @@ state={
 			infrastructure = 2
 			7960 = {
 				naval_base = 3
+
 			}
 			8051 = {
 				naval_base = 2
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		2048 7960 8051 8108 10904 
+		7563 
 	}
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
