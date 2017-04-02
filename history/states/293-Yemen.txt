@@ -17,6 +17,8 @@ state={
 			}
 
 		}
+		owner = ARB
+		add_core_of = ARB
 		victory_points = {
 			10840 3 
 		}

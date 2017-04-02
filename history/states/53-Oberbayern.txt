@@ -4,17 +4,15 @@ state={
 	name="STATE_53"
 
 	history={
-#
 		buildings = {
 			infrastructure = 6
 
 		}
-#
 
 	}
 
 	provinces={
-		532 571 586 3299 3541 3571 11497 
+		532 
 	}
 	manpower=1453365
 	buildings_max_level_factor=1.000
