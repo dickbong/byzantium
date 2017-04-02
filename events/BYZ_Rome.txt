@@ -237,23 +237,30 @@ country_event = { #Conference of Carnuntum
 			}
 			add_core_of = MXT
 		}
-		LIC = { transfer_state = 353 }
-		LIC = { transfer_state = 353 }
+		LIC = { transfer_state = 82 }
+		LIC = { transfer_state = 108 }
+		LIC = { transfer_state = 184 }
 		CST = {
 			set_cosmetic_tag = CST_caesar
 		}
 	}
 	
-	option = {
+	option = { #Don't go quietly into the night
 		news_event = rome_news.8
 		name = rome.8.a
 		add_political_power = -150
+		LIC = {
+			declare_war_on = { target = GAE type = annex_everything }
+		}
 	}
 	
-	option = {
+	option = { #abdicate
 		news_event = rome_news.8
 		name = rome.8.a
 		release = LIC
 		add_political_power = -150
+		LIC = {
+			annex_country = { target = GAE }
+		}
 	}
 }

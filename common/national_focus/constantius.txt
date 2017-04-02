@@ -1,0 +1,459 @@
+focus_tree = {
+	id = CST_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CST
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = CST
+		}
+	}
+	
+	#	focus = {
+#		id = CST
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	
+	default = no
+
+	focus = {
+		id = CST_defense_against_maxentius
+		icon = GFX_focus_generic_home_defense
+		mutually_exclusive = { focus = CST_ally_maxentius }
+		available = {
+			OR = {
+				SEV = {
+					exists = no
+				}
+				MXT = {
+					exists = yes
+				}
+			}
+		}
+		x = 5
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_ally_licnius
+		icon = GFX_goal_generic_alliance
+		mutually_exclusive = { focus = CST_defense_against_maxentius }
+		prerequisite = { focus = CST_defense_against_maxentius }
+		available = {
+			OR = {
+				LIC = {
+					exists = yes
+				}
+			}
+		}
+		x = 5
+		y = 1
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_ally_maxentius
+		icon = GFX_goal_anschluss
+		mutually_exclusive = { focus = CST_defense_against_maxentius }
+		available = {
+			OR = {
+				SEV = {
+					exists = no
+				}
+				MXT = {
+					exists = yes
+				}
+			}
+		}
+		x = 7
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_defeat_licinius
+		icon = GFX_goal_generic_territory_or_war
+		mutually_exclusive = { focus = CST_defense_against_maxentius }
+		prerequisite = { focus = CST_ally_maxentius }
+		available = {
+			OR = {
+				LIC = {
+					exists = yes
+				}
+			}
+		}
+		x = 7
+		y = 1
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_unite_rome
+		icon = GFX_focus_generic_strike_at_democracy1
+		mutually_exclusive = { focus = CST_preserve_tetrarchy }
+		prerequisite = { focus = CST_defeat_licinius focus = CST_ally_licnius }
+		available = {
+			OR = {
+				LIC = {
+					exists = yes
+				}
+			}
+		}
+		x = 7
+		y = 2
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_preserve_tetrarchy
+		icon = GFX_focus_generic_strike_at_democracy1
+		mutually_exclusive = { focus = CST_unite_rome }
+		prerequisite = { focus = CST_defeat_licinius focus = CST_ally_licnius }
+		available = {
+			OR = {
+				LIC = {
+					exists = yes
+				}
+			}
+		}
+		x = 5
+		y = 2
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_stabilize_rome
+		icon = GFX_goal_generic_neutrality_focus
+		mutually_exclusive = { focus = CST_unite_rome }
+		prerequisite = { focus = CST_preserve_tetrarchy focus = CST_unite_rome }
+		available = {
+			
+		}
+		x = 6
+		y = 3
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_to_the_east
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		mutually_exclusive = { focus = CST_to_the_west }
+		prerequisite = { focus = CST_stabilize_rome }
+		available = {
+			
+		}
+		x = 5
+		y = 4
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_a_new_rome
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		mutually_exclusive = { focus =  }
+		prerequisite = { focus = CST_to_the_east }
+		available = {
+			
+		}
+		x = 5
+		y = 5
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_glorify_constantinople
+		icon = GFX_goal_generic_construct_military
+		mutually_exclusive = { focus =  }
+		prerequisite = { focus = CST_a_new_rome }
+		available = {
+			
+		}
+		x = 5
+		y = 6
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_eastern_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		mutually_exclusive = { focus = CST_2nd_persian_war }
+		prerequisite = { focus = CST_to_the_east }
+		available = {
+			
+		}
+		x = 3
+		y = 5
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_regional_peace
+		icon = GFX_goal_generic_improve_relations
+		mutually_exclusive = { focus =   }
+		prerequisite = { focus = CST_eastern_trade }
+		available = {
+			
+		}
+		x = 3
+		y = 6
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_2nd_persian_war
+		icon = GFX_goal_generic_forceful_treaty
+		mutually_exclusive = { focus = CST_eastern_trade  }
+		prerequisite = { focus = CST_to_the_east }
+		available = {
+			
+		}
+		x = 1
+		y = 5
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_take_india
+		icon = GFX_focus_RAJ_seek_help_from_germany
+		mutually_exclusive = { focus =  }
+		prerequisite = { focus = CST_2nd_persian_war }
+		available = {
+			
+		}
+		x = 1
+		y = 6
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = CST_to_the_west
+		icon = GFX_focus_generic_italy_first
+		mutually_exclusive = { focus = CST_to_the_east }
+		prerequisite = { focus = CST_stabilize_rome }
+		available = {
+			
+		}
+		x = 7
+		y = 4
+		cost = 1.5
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			if = {
+				
+			}
+		}
+	}
+	
+}
