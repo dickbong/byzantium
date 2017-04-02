@@ -1,6 +1,6 @@
 ﻿capital = 15
 
-oob = "PIC"
+oob = "OST"
 
 set_technology = {
 	infantry_weapons = 1

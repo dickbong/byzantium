@@ -15,4 +15,9 @@ SAX = "countries/Saxons.txt"
 FRK = "countries/Franks.txt"
 VIS = "countries/Visigoths.txt"
 VAN = "countries/Vandals.txt"
+HUN = "countries/Huns.txt"
+ALN = "countries/Alans.txt"
+PRS = "countries/Persian Empire.txt"
+ARB = "countries/Arabia.txt"
+
 #Other
