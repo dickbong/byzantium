@@ -23,7 +23,8 @@ state={
 			}
 
 		}
-#
+		owner = IRI
+		add_core_of = IRI
 
 	}
 

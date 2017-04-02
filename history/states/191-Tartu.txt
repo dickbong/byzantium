@@ -1,11 +1,9 @@
+
 state={
 	id=191
 	name="STATE_191"
-	
-	state_category = rural
 
 	history={
-
 		victory_points = {
 			9221 1 
 		}
@@ -18,12 +16,12 @@ state={
 
 		}
 
-
 	}
 
 	provinces={
-		592 4640 6099 6178 6408 9221 9485 11057 11443 13127 
+		3078 
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
