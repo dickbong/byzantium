@@ -547,3 +547,10 @@ IRI = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }
 }
+FIN = {
+	color = rgb { 205  212  228 }
+	color_ui = rgb { 205  212  228 }
+}
+FRK = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
