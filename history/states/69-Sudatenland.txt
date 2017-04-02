@@ -1,54 +1,53 @@
-state=
-{
+
+state={
 	id=69
 	name="STATE_69"
-	manpower = 2830000
-	
-	state_category = town
-	
-	history={
 
+	history={
 		buildings = {
 			infrastructure = 6
 			anti_air_building = 5
-			424 =
-			{
+			424 = {
 				bunker = 6
+
 			}
-			469 =
-			{
+			469 = {
 				bunker = 6
+
 			}
-			3585 =
-			{
+			3585 = {
 				bunker = 6
+
 			}
-			5283 =
-			{
+			5283 = {
 				bunker = 6
+
 			}
-			6470 =
-			{
+			6470 = {
 				bunker = 6
+
 			}
-			9555 =
-			{
+			9555 = {
 				bunker = 6
+
 			}
-			11432 =
-			{
+			11432 = {
 				bunker = 6
+
 			}
 
 		}
-
-
 		1938.9.30 = {
-
 			controller = GER
+
 		}
+
 	}
-	provinces=
-	{
-424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525 	}
+
+	provinces={
+		421 424 445 469 494 543 557 583 732 3414 3418 3462 3553 3569 3583 3585 5283 6418 6440 6470 6562 6576 6590 6723 6739 7857 9414 9421 9429 9527 9541 9551 9555 9569 11401 11414 11432 11511 11525 11542 11556 
+	}
+	manpower=2830000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

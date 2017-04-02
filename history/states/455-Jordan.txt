@@ -4,7 +4,6 @@ state={
 	name="STATE_455"
 
 	history={
-#
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -13,12 +12,11 @@ state={
 		victory_points = {
 			7151 1 
 		}
-#
 
 	}
 
 	provinces={
-		1544 4440 4562 4603 11976 
+		12359 
 	}
 	manpower=932000
 	buildings_max_level_factor=1.000

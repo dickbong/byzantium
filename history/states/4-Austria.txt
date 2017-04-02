@@ -7,7 +7,6 @@ state={
 	}
 
 	history={
-#
 		victory_points = {
 			11666 30.0 
 		}
@@ -21,11 +20,8 @@ state={
 			air_base = 6
 
 		}
-#
 		1938.3.12 = {
-#
 			controller = GER
-#
 
 		}
 		1939.1.1 = {
@@ -39,7 +35,7 @@ state={
 	}
 
 	provinces={
-		3718 6739 9527 
+		3718 
 	}
 	manpower=2595983
 	buildings_max_level_factor=1.000

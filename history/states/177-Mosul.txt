@@ -1,27 +1,26 @@
+
 state={
 	id=177
 	name="STATE_177"
-	manpower = 1182741
-	
-	state_category = town
-	
 	resources={
-		oil=10
+		oil=10.000
 	}
 
-
 	history={
-#
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			10106 1 
 		}
-#
+
 	}
-	
+
 	provinces={
-		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
+		1593 
 	}
+	manpower=1182741
+	buildings_max_level_factor=1.000
+	state_category=town
 }

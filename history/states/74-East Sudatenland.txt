@@ -1,27 +1,25 @@
-state=
-{
+
+state={
 	id=74
 	name="STATE_74"
-	manpower = 820000
-	
-	state_category = rural
-	
-	
-	history=
-	{
 
+	history={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
+
 		}
-
-
 		1938.9.30 = {
-
 			controller = GER
+
 		}
+
 	}
-	provinces= {
-		421 3414 3583 6485
- 	}
+
+	provinces={
+		6485 
+	}
+	manpower=820000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

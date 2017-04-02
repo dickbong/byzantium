@@ -1,28 +1,26 @@
+
 state={
 	id=73
 	name="STATE_73"
-	manpower = 854300
-	
-	state_category = rural
-	
-	history={
 
+	history={
 		buildings = {
 			infrastructure = 5
+
 		}
-
 		add_claim_by = HUN
-
 		1939.3.14 = {
-
 			controller = HUN
 			remove_claim_by = HUN
 
-
 		}
+
 	}
 
 	provinces={
-		3548 6571 9563 11536 11691 
+		11117 
 	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
