@@ -32,6 +32,8 @@ state={
 			}
 
 		}
+		add_core_of = FRK
+		owner = FRK
 
 	}
 
