@@ -8,7 +8,8 @@ state={
 			infrastructure = 1
 
 		}
-
+		owner = ARB
+		add_core_of = ARB
 	}
 
 	provinces={

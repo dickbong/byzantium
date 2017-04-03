@@ -16,7 +16,8 @@ state={
 		victory_points = {
 			690 1 
 		}
-
+		owner = VIS
+		add_core_of = VIS
 	}
 
 	provinces={
