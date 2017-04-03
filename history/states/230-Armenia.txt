@@ -13,14 +13,8 @@ state={
 			air_base = 2
 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
-
+		owner = ARM
+		add_core_of = ARM
 	}
 
 	provinces={

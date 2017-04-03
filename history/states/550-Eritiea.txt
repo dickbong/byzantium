@@ -16,6 +16,8 @@ state={
 			}
 
 		}
+		owner = AKM
+		add_core_of = AKM
 
 	}
 

@@ -11,9 +11,11 @@ country_event = {
 	picture = GFX_report_event_soviet_soldiers
 	
 	trigger = {
-		has_capitulated = no
-		has_government = barbarian
-		at_war = no
+		AND = {
+			has_capitulated = no
+			has_government = barbarian
+			at_war = no
+		}
 	}
 	
 	mean_time_to_happen = { days = 100 }
@@ -22,14 +24,7 @@ country_event = {
 		name = barbarian.1.a
 		every_neighbor_country = {
 			limit = {
-				NOT = {
-					TAG = CST
-					TAG = GAE
-					TAG = SEV
-					TAG = MXM
-					TAG = MXT
-					TAG = LIC
-				}
+				has_government = barbarian
 			}
 			declare_war_on = {
 				target = FROM
