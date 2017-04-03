@@ -19,7 +19,8 @@ state={
 				naval_base = 5
 			}
 		}
-#
+		owner = ARB
+		add_core_of = ARB
 	}
 
 	provinces={

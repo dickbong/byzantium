@@ -9,10 +9,8 @@ state={
 			industrial_complex = 2
 
 		}
-		1939.3.14 = {
-			controller = SLO
-
-		}
+		owner = VAN
+		add_core_of = VAN
 
 	}
 
