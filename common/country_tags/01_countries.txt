@@ -17,9 +17,9 @@ VIS = "countries/Visigoths.txt"
 VAN = "countries/Vandals.txt"
 HUN = "countries/Huns.txt"
 ALN = "countries/Alans.txt"
+#Other
 PRS = "countries/Persian Empire.txt"
 ARB = "countries/Arabia.txt"
 ARM = "countries/Armenia.txt"
 AKM = "countries/Aksum.txt"
 NUB = "countries/Nubia.txt"
-#Other

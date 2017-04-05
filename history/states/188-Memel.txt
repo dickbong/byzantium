@@ -13,10 +13,8 @@ state={
 			}
 
 		}
-		1939.3.22 = {
-			controller = GER
-
-		}
+		add_core_of = OST
+		owner = OST
 
 	}
 

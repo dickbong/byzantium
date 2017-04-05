@@ -8,11 +8,13 @@ state={
 			infrastructure = 3
 
 		}
+		add_core_of = PRS
+		add_core_of = PRS
 
 	}
 
 	provinces={
-		829 3916 4943 5014 5050 5098 6826 8123 9816 10774 10793 10811 12773 
+		829 3916 4943 5014 5098 6826 8123 9816 10774 10793 10811 12773 
 	}
 	manpower=780278
 	buildings_max_level_factor=1.000

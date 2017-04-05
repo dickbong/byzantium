@@ -2,19 +2,21 @@
 state={
 	id=410
 	name="STATE_410"
-	manpower = 341053
-	
-	state_category = rural
 
 	history={
-
 		buildings = {
 			infrastructure = 2
+
 		}
+		add_core_of = PRS
+		add_core_of = PRS
 
 	}
 
 	provinces={
-		1889 2039 2070 4891 10782 13082 
+		1521 1888 1889 1957 1986 2000 2039 2070 4891 4958 5003 5029 5073 7560 7573 7990 10351 10510 10759 10782 10806 10890 10913 11249 12333 12739 12809 12852 12895 13082 
 	}
+	manpower=341053
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
