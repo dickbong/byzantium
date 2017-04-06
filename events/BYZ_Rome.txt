@@ -256,11 +256,52 @@ country_event = { #Conference of Carnuntum
 	
 	option = { #abdicate
 		news_event = rome_news.8
-		name = rome.8.a
+		name = rome.8.b
 		release = LIC
 		add_political_power = -150
 		LIC = {
 			annex_country = { target = GAE }
+		}
+	}
+}
+
+country_event = { #Domitius Alexander Rises Up
+	id = rome.9
+	title = rome.9.t
+	desc = rome.9.d
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MXT
+		OR = {
+			has_global_flag = SEV_defeated
+			AND = {
+				date > 308.1.1
+				SEV = {
+					OR = {
+						has_capitulated = yes
+						surrender_progress > 0.6
+					}	
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		release = DMA
+		every_owned_state = {
+			limit = {
+				is_core_of = SEV
+			}
+		}
+	}
+	
+	option = { #Don't go quietly into the night
+		news_event = rome_news.8
+		name = rome.8.a
+		add_political_power = -150
+		LIC = {
+			declare_war_on = { target = GAE type = annex_everything }
 		}
 	}
 }
