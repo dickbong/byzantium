@@ -1,0 +1,35 @@
+
+state={
+	id=461
+	name="STATE_461"
+
+	history={
+		owner = SEV
+		victory_points = {
+			7069 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+			7069 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = CST
+		add_core_of = GAE
+		add_core_of = SEV
+		add_core_of = MXM
+
+	}
+
+	provinces={
+		989 1013 1037 1041 1046 1058 1111 1118 1128 1141 1145 1149 1160 1189 1194 3991 4046 4047 4057 4061 4097 4116 4129 4131 4146 4150 4163 4194 4199 7005 7008 7033 7040 7065 7066 7077 7081 7100 7116 7132 7162 7166 7173 7180 7209 7215 9945 9964 9976 9980 9994 10013 10026 10045 10046 10059 10078 10091 10113 10117 11921 11923 11935 11939 11953 11957 11969 11987 12020 12034 12039 12042 12051 12087 12088 12100 12760 13077 
+	}
+	manpower=3197719
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

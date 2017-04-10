@@ -1,0 +1,35 @@
+
+state={
+	id=221
+	name="STATE_221"
+	resources={
+		steel=56.000
+	}
+
+	history={
+		victory_points = {
+			418 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			air_base = 5
+
+		}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3531 
+	}
+	manpower=2227520
+	buildings_max_level_factor=1.000
+	state_category=city
+}

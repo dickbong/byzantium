@@ -1,0 +1,25 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			6336 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11196 
+	}
+	manpower=2364000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6711 5 
+		}
+
+	}
+
+	provinces={
+		116 
+	}
+	manpower=2352700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

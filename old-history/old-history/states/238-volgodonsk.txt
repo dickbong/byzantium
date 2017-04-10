@@ -1,0 +1,20 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		9753 
+	}
+	manpower=556677
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

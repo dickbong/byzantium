@@ -1,0 +1,21 @@
+
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		6194 
+	}
+	manpower=474600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

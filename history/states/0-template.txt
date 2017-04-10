@@ -1,0 +1,25 @@
+
+state={
+	id=0
+	name="STATE_0"
+	manpower = 0
+	resources={
+		
+	}
+	
+	state_category = town
+
+	history={
+		owner =
+		add_core_of =
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		
+	}
+}

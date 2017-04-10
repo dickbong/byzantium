@@ -1,0 +1,24 @@
+
+state={
+	id=224
+	name="STATE_224"
+
+	history={
+		victory_points = {
+			3335 10 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		6305 
+	}
+	manpower=1707567
+	buildings_max_level_factor=1.000
+	state_category=town
+}

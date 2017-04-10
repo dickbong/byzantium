@@ -1,0 +1,24 @@
+
+state={
+	id=264
+	name="STATE_264"
+
+	history={
+		victory_points = {
+			3140 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		13129 
+	}
+	manpower=185559
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+
+		}
+		1938.9.30 = {
+			controller = GER
+
+		}
+
+	}
+
+	provinces={
+		741 
+	}
+	manpower=820000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

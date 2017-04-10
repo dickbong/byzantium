@@ -1,0 +1,21 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		12416 
+	}
+	manpower=1047156
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

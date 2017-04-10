@@ -1,0 +1,24 @@
+
+state={
+	id=236
+	name="STATE_236"
+
+	history={
+		victory_points = {
+			9753 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		618 3435 9592 11736 
+	}
+	manpower=647208
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
