@@ -31,80 +31,62 @@ division_template = {
 		
 	}
 }
-##SPAIN##
+##VIENNESIS##
 units = {
 	division = {			
-		name = "4a División de Infantería"		
-		location = 9764  # Barcelona
-		division_template = "División de Infantería"
+		name = "1st Legion of Burdigala"		
+		location = 9737  #Burdigala
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "5a División de Infantería"		
-		location = 3816  # Zaragosa
-		division_template = "División de Infantería"
+		name = "2nd Legion of Burdigala"		
+		location = 9737  #Burdigala
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "6a División de Infantería"		
-		location = 885  # Burgos
-		division_template = "División de Infantería"
+		name = "1st Legion of Massilia"		
+		location = 11834  #Massilia
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "7a División de Infantería"		
-		location = 11825  # Valladolid
-		division_template = "División de Infantería"
+		name = "2nd Legion of Massilia"		
+		location = 11834  #Massilia
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "8a División de Infantería"		
-		location = 758  # La Coruña
-		division_template = "División de Infantería"
+		name = "1st Legion of Arelate"		
+		location = 11849  #Arelate
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "1a División de Caballería"		
-		location = 9764  # Barcelona
-		division_template = "División de Caballería"
+		name = "2nd Legion of Arelate"		
+		location = 11849  #Arelate
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "1a Brigada Montaña"		
-		location = 13071  # Canary Islands
-		division_template = "Brigada Montaña"
+		name = "1st Legion of Vienne"		
+		location = 6786  #Vienne
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
+		start_equipment_factor = 1
+	}
 	division = {			
-		name = "2a Brigada Montaña"		
-		location = 740  #Bilbao
-		division_template = "Brigada Montaña"
+		name = "2nd Legion of Vienne"		
+		location = 11849  #Vienne
+		division_template = "Legion"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}			
-	division = {			
-		name = "Brigada Mixta Montaña"		
-		location = 11707  #Oviedo
-		division_template = "Brigada Montaña"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
+		start_equipment_factor = 1
 	}
 }

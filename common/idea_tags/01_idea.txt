@@ -15,16 +15,14 @@ idea_categories = {
 	}
 	
 	government = {
-		slot = mobilization_laws
+		slot = levies
 		slot = trade_laws
 		slot = economy
+		slot = something
 		slot = stability
-		slot = political_advisor
-		slot = decisions
-
-		cost = 150			
+		slot = titles
+		
+		cost = 150
 		removal_cost = 0
 	}
-	
-
 }

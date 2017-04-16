@@ -1,0 +1,61 @@
+ideas = {
+	levies = {
+		law = yes
+		lowered_levies = {
+			default = yes
+			cost = 0
+			removal_cost = -1
+			available = {
+				has_war = no
+				has_army_manpower = { size > 0 }
+				has_country_flag = levies_raised
+			}
+			modifier = {
+				army_morale_factor = -2
+				conscription = -2
+				army_defence_factor = -2
+				army_attack_factor = -2
+			}
+			picture = lowered_levies
+			on_add = {
+				clr_country_flag = levies_raised
+			}
+		}
+		
+		raised_levies = {
+			default = no
+			cost = 0
+			removal_cost = -1
+			available = {
+				has_war = yes
+				has_army_manpower = { size < 1 }
+			}
+			picture = lowered_levies
+			modifier = {
+				conscription = 0.1
+			}
+			on_add = {
+				country_event = { days = 1 id = levies.1 }
+				set_country_flag = levies_raised
+			}
+		}
+	}
+	#country = {
+	#	idea_raised_levies = {
+	#		
+	#		allowed = {
+	#			always = yes
+	#		}
+	#
+	#		allowed_civil_war = {
+	#			always = yes
+	#		}
+	#		
+	#		removal_cost = -1
+	#		
+	#		modifier = {
+	#			
+	#		}
+	#	}
+	#}
+}

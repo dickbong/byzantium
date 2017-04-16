@@ -1,0 +1,30 @@
+﻿###########################
+# CK2 Mod Events
+# LEVIES
+###########################
+
+#Copyright Dick Bong, Ace of Aces 2017
+
+add_namespace = levy
+
+###########################
+# CK2 Mod Events - Lovers <3
+# ALSO USED IN THE BYZANTIUM MOD
+###########################
+
+country_event = {
+	id = levy.1
+	title = levy.1.t
+	desc = levy.1.d
+	is_triggered_only = yes
+
+	option ={
+		name = levy.1.a
+		if = {
+			limit = {
+				ROOT = { controls_state = 2 }
+			}
+			load_oob = LEVY_2_VIENNESIS
+		}
+	}
+}

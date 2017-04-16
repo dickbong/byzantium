@@ -1,0 +1,32 @@
+ideas = {
+	titles = {
+		law = yes
+		roman_empire_title = {
+			default = no
+			cost = 300
+			removal_cost = -1
+			available = {
+				has_war = no
+				AND = {
+					1 = { is_owned_by = FROM }
+					2 = { is_owned_by = FROM }
+					3 = { is_owned_by = FROM }
+					5 = { is_owned_by = FROM }
+					6 = { is_owned_by = FROM }
+				}
+				has_country_flag = roman_empire_title
+			}
+			picture = roman_empire_title
+			on_add = {
+				set_cosmetic_tag = RME
+				set_country_flag = roman_empire_title
+				hidden_effect = {
+					1 = { add_core_of = FROM }
+					2 = { add_core_of = FROM }
+					3 = { add_core_of = FROM }
+					5 = { add_core_of = FROM }
+				}
+			}
+		}
+	}
+}

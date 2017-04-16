@@ -14,7 +14,7 @@ country_event = {
 		AND = {
 			has_capitulated = no
 			has_government = barbarian
-			at_war = no
+			has_war = no
 		}
 	}
 	
