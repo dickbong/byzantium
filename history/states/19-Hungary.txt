@@ -15,8 +15,8 @@ state={
 			air_base = 4
 
 		}
-		owner = VAN
-		add_core_of = VAN
+		owner = LOM
+		add_core_of = LOM
 
 	}
 

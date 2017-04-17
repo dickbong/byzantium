@@ -8,8 +8,8 @@ state={
 			infrastructure = 6
 			anti_air_building = 5
 		}
-		owner = VAN
-		add_core_of = VAN
+		owner = BRG
+		add_core_of = BRG
 
 	}
 

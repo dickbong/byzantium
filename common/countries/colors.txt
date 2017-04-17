@@ -544,8 +544,8 @@ PIC = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 IRI = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
 }
 FNN = {
 	color = rgb { 205  212  228 }
@@ -603,6 +603,10 @@ AKM = {
 NUB = {
 	color = rgb  { 215  172  52 }
 	color_ui = rgb { 215  172  52 }
+}
+DMA = {
+	color = rgb  { 51  0  102 }
+	color_ui = rgb { 51  0  102 }
 }
 
 

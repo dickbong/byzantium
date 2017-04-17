@@ -41,7 +41,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Tribal"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	desc = "POLITICS_TRIBAL_DESC"
 	picture = "Portrait_Tribal_Council.dds"
 	expire = "1965.1.1"
 	ideology = barbarian

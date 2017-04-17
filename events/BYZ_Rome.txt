@@ -293,12 +293,13 @@ country_event = { #Domitius Alexander Rises Up
 			limit = {
 				is_core_of = SEV
 			}
+			add_core_of = DMA
 		}
 	}
 	
-	option = { #Don't go quietly into the night
-		news_event = rome_news.8
-		name = rome.8.a
+	option = { #Noooooo!
+		news_event = rome_news.9
+		name = rome.9.a
 		add_political_power = -150
 		LIC = {
 			declare_war_on = { target = GAE type = annex_everything }

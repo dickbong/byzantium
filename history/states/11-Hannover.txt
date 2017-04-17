@@ -24,8 +24,8 @@ state={
 			}
 
 		}
-		owner = FRK
-		add_core_of = FRK
+		owner = SAX
+		add_core_of = SAX
 
 	}
 

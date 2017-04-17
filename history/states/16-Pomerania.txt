@@ -17,8 +17,8 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = SAX
-		owner = SAX
+		add_core_of = SVI
+		owner = SVI
 		
 
 	}

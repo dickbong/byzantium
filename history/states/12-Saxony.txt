@@ -19,8 +19,8 @@ state={
 		victory_points = {
 			3535 5 
 		}
-		owner = SAX
-		add_core_of = SAX
+		owner = SVI
+		add_core_of = SVI
 
 	}
 
