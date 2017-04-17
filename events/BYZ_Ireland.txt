@@ -1,0 +1,36 @@
+﻿###########################
+# Irish Events
+###########################
+
+add_namespace = ireland
+
+country_event = { #Collas raises banner in war
+	id = ireland.1
+	title = ireland.1.t
+	desc = ireland.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		date > 322.1.1
+	}
+	
+	mean_time_to_happen = { days = 100 }
+	
+	immediate = {
+		COL = { transfer_state = 69 } #Ireland
+		every_owned_state = {
+			limit = {
+				is_core_of = IRI
+			}
+			add_core_of = COL
+		}
+		
+	}
+
+	option = { 
+		name = ireland.1.a
+		COL = {
+			declare_war_on = { target = IRI type = annex_everything }	
+		}
+	}
+}

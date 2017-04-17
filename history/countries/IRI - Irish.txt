@@ -40,10 +40,20 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tribal"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Tribal_Council.dds"
-	expire = "1965.1.1"
+	name = "Fiacha Sraibhtine"
+	desc = "POLITICS_Fiacha Sraibhtine_DESC"
+	picture = "Portrait_Celt_Generic_1.dds"
+	expire = "322.1.1"
+	ideology = barbarian
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Colla Uais"
+	desc = "POLITICS_Fiacha Sraibhtine_DESC"
+	picture = "Portrait_Celt_Generic_1.dds"
+	expire = "322.1.1"
 	ideology = barbarian
 	traits = {
 		#

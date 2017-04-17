@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Legion"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		 
+	}
+}
+division_template = {
+	name = "Cavalry"  	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		
+	}
+}
+##BRITAIN##
+units = {
+	division = {			
+		name = "Legion of Vennonae"		
+		location = 9297  # Vennonae
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}	
+	division = {			
+		name = "Legion of Vennonae"		
+		location = 9297  # Vennonae
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Legion of Eboracum"		
+		location = 9379  # Eboracum
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Legion of Eboracum"		
+		location = 9379  # Eboracum
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Legion of Londinium"		
+		location = 11333  # Londinium
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {			
+		name = "Legion of Londinium"		
+		location = 11333  # Londinium
+		division_template = "Legion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}
