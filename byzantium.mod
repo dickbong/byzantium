@@ -1,6 +1,6 @@
 ﻿name="FBE Dev Build"
-path="mod/ethics/"
+path="mod/byzantium/"
 tags={
-	"Events"
+	"Historical"
 }
 supported_version="1.3.3"
