@@ -3,8 +3,6 @@ state={
 	name="STATE_89"
 	history={
 		owner = CST
-		victory_points = {
-		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

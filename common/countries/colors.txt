@@ -543,6 +543,7 @@ GAE = {
 PIC = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
+}
 IRI = {
 	color = rgb { 0 102 0 }
 	color_ui = rgb { 0 102 0 }

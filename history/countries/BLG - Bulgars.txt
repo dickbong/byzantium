@@ -1,0 +1,59 @@
+﻿capital = 
+
+oob = "SAX"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_politics = {
+
+	parties = {
+		christian = { 
+			popularity = 0
+			banned = no
+		}
+
+		barbarian = {
+			popularity = 100
+			banned = no
+			
+		}
+		
+		pagan = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		other = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	
+	ruling_party = barbarian
+	last_election = "1936.1.1"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tribal"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Tribal_Council.dds"
+	expire = "1965.1.1"
+	ideology = barbarian
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
+}

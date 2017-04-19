@@ -1,4 +1,4 @@
-﻿capital = 15
+﻿capital = 32
 
 oob = "AKM"
 

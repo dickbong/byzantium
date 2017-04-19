@@ -350,11 +350,11 @@ country_event = {
 	title = rome.11.t
 	desc = {
 		text = rome.11.d.accept
-		trigger = has_country_flag = alliance_accepted
+		trigger = { has_country_flag = alliance_accepted }
 	}
 	desc = {
 		text = rome.11.d.deny
-		trigger = has_country_flag = alliance denied
+		trigger = { has_country_flag = alliance_denied }
 
 	}
 	picture = GFX_report_event_polish_tanks_01

@@ -1,0 +1,311 @@
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[13:40:36][nationalfocus.cpp:989]: CST_unite_rome: Couldn't find dependency CST_preserve_tetrarchy 
+[13:40:36][effect.cpp:225]: Invalid effect '=' in history/countries/BLG - Bulgars.txt line : 3
+[13:40:36][countryhistory.cpp:165]: Unknown History Command ==>'='<==  for Countryhistory/countries/BLG - Bulgars.txt
+[13:40:36][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 3
+" in file: "history/countries/BLG - Bulgars.txt" near line: 3
+[13:40:38][effect.cpp:225]: Invalid effect 'text' in events/BYZ_Rome.txt line : 366
+[13:40:38][persistent.cpp:36]: Error: "Unknown effect-type: text, near line: 366
+" in file: "events/BYZ_Rome.txt" near line: 366
+[13:40:38][trigger.cpp:355]: Invalid trigger '=' in events/BYZ_Rome.txt line : 367
+[13:40:38][trigger.cpp:269]: Error: "Unknown trigger-type: =, near line: 367
+" in file: "events/BYZ_Rome.txt" near line: 368
+[13:40:38][effect.cpp:225]: Invalid effect 'text' in events/BYZ_Rome.txt line : 370
+[13:40:38][persistent.cpp:36]: Error: "Unknown effect-type: text, near line: 370
+" in file: "events/BYZ_Rome.txt" near line: 370
+[13:40:38][trigger.cpp:355]: Invalid trigger '=' in events/BYZ_Rome.txt line : 371
+[13:40:38][trigger.cpp:269]: Error: "Unknown trigger-type: =, near line: 371
+" in file: "events/BYZ_Rome.txt" near line: 372
+[13:40:38][gamestate.cpp:1730]: The province 2560 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1725]: The province 4226 -  has no state.
+[13:40:38][gamestate.cpp:1730]: The province 8812 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1725]: The province 8913 -  has no state.
+[13:40:38][gamestate.cpp:1730]: The province 8913 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1725]: The province 12003 -  has no state.
+[13:40:38][gamestate.cpp:1730]: The province 12003 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1725]: The province 13015 -  has no state.
+[13:40:38][gamestate.cpp:1730]: The province 13015 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1730]: The province 13129 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1730]: The province 13178 -  has no strategic region assigned.
+[13:40:38][gamestate.cpp:1614]: 
+Naval strategic region Siberia is fractioned!
+The following provinces are separated from the rest:
+  177,373,379,1440,1513,1550,1594,1635,1751,2165,3118,3691,4155,4450,4476,4598,4600,4641,4647,7123,7245,7451,7546,7590,7622,7632,7660,7758,7788,7813,9377,10245,10254,10374,10440,10484,10498,10636,10995,11106,11350,12304,12347,12477,12505,12512,12680,12698,12960,13002,13005,13009,13010,13013,13014,13016,13058,13066,13071,13084
+[13:40:38][gamestate.cpp:1614]: 
+Naval strategic region Alpine Region is fractioned!
+The following provinces are separated from the rest:
+  2703,5918,9125,11827
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
+[13:40:47][effect.cpp:225]: Invalid effect '=' in history/countries/BLG - Bulgars.txt line : 3
+[13:40:47][countryhistory.cpp:165]: Unknown History Command ==>'='<==  for Countryhistory/countries/BLG - Bulgars.txt
+[13:40:47][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 3
+" in file: "history/countries/BLG - Bulgars.txt" near line: 3
+[13:40:47][statehistory.cpp:293]: State Error: Trying to set invalid province building "naval_base" to province #11333.
+[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
+[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
+[13:40:47][country.cpp:3057]: Attempting to set captial state #1 for , they dont own it!
+[13:40:47][country.cpp:3057]: Attempting to set captial state #1 for , they dont own it!
+[13:40:47][country.cpp:3046]: Attempting to set captial state #0 for , it is not a valid state!
+[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
+[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/medium/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
+[13:42:04][gamestate.cpp:4379]: 1 -  Hispaniae has too many buildings : -3
+[13:42:04][gamestate.cpp:4379]: 2 -  Viennesis has too many buildings : -4
+[13:42:04][gamestate.cpp:4379]: 3 -  Galliae has too many buildings : -2
+[13:42:04][gamestate.cpp:4379]: 7 -  Frisia has too many buildings : -8
+[13:42:04][gamestate.cpp:4379]: 12 -  Saxony has too many buildings : -6
+[13:42:04][gamestate.cpp:4379]: 19 -  Great Hungarian Plane has too many buildings : -6
+[13:42:04][gamestate.cpp:4379]: 22 -  Pannonaie has too many buildings : -3
+[13:42:04][gamestate.cpp:4379]: 23 -  Illyricium has too many buildings : -3
+[13:42:04][gamestate.cpp:4379]: 24 -  Moesia has too many buildings : -2
+[13:42:04][gamestate.cpp:4379]: 25 -  Thracia has too many buildings : -2
+[13:42:04][gamestate.cpp:4379]: 26 -  Pontica has too many buildings : -1
+[13:42:04][gamestate.cpp:4379]: 27 -  Oriens has too many buildings : -1
+[13:42:04][gamestate.cpp:4379]: 29 -  Africa has too many buildings : -1
+[13:42:04][gamestate.cpp:4379]: 33 -  East Africa has too many buildings : -2
+[13:42:04][gamestate.cpp:4379]: 44 -  Ethiopia has too many buildings : -4
+[13:42:04][gamestate.cpp:4379]: 47 -  Thessaly has too many buildings : -4
+[13:42:04][gamestate.cpp:4379]: 59 -  Asiana has too many buildings : -3
