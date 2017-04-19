@@ -33,3 +33,39 @@ country_event = {
 		}
 	}
 }
+
+country_event = { #barbarian invasion of rome
+	id = barbarian.2
+	title = barbarian.2.t
+	desc = barbarian.2.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		AND = {
+			has_capitulated = no
+			has_government = barbarian
+			has_war = no
+		}
+	}
+	
+	mean_time_to_happen = { days = 1000 }
+
+	option = {
+		name = barbarian.1.a
+		every_neighbor_country = {
+			limit = {
+				tag = SEV
+				tag = GAE
+				tag = CST
+				tag = DMA
+				tag = LIC
+				tag = MXM
+				tag = MXT
+			}
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+	}
+}

@@ -1,4 +1,6 @@
-﻿division_template = {
+﻿#Italia
+
+division_template = {
 	name = "Legion"	
 
 	regiments = {
@@ -31,7 +33,7 @@ division_template = {
 		
 	}
 }
-##SPAIN##
+
 units = {
 
 division = {			
@@ -194,44 +196,3 @@ division = {
 		start_equipment_factor = 0.7
 
 	}
-
-	## 6a Armata ##
-	# Corpo d'Armata Celere #
-	division= {	
-		name = "1a Divisione Celere 'Eugenio di Savoia'"
-		location = 11584
-		division_template = "Legion"	
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "2a Divisione Celere 'Emanuele Filiberto'"
-		location = 11584
-		division_template = "Legion"	
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "3a Divisione Celere 'Principe Amedeo'"
-		location = 11584
-		division_template = "Legion"	
-		start_experience_factor = 0.3
-	}
-
-	### Gruppo d'Armata Sud ###
-	# VII Corpo d'Armata #
-	division= {	
-		name = "20a Legion 'Friuli'"
-		location = 4159
-		division_template = "Legion"	
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division= {	
-		name = "25a Legion 'Bologna'"
-		location = 10074
-		division_template = "Cavalry"	
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-}

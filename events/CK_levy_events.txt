@@ -8,7 +8,7 @@
 add_namespace = levy
 
 ###########################
-# CK2 Mod Events - Lovers <3
+# CK2 Mod Events - LEVIES
 # ALSO USED IN THE BYZANTIUM MOD
 ###########################
 
@@ -20,11 +20,27 @@ country_event = {
 
 	option ={
 		name = levy.1.a
-		if = {
+		#ROME
+		if = { #GAUL
 			limit = {
 				ROOT = { controls_state = 2 }
 			}
 			load_oob = LEVY_2_VIENNESIS
+		}
+		#IRELAND
+		if = { #IRELAND
+			limit = {
+				ROOT = { controls_state = 69 }
+				has_government = barbarian
+			}
+			load_oob = LEVY_69_IRELAND_TRIBAL
+		}
+		if = { #CONNATCHA
+			limit = {
+				ROOT = { controls_state = 87 }
+				has_government = barbarian
+			}
+			load_oob = LEVY_87_IRELAND_TRIBAL
 		}
 	}
 }

@@ -228,6 +228,8 @@ country_event = { #Conference of Carnuntum
 			}
 		}
 	}
+
+	mean_time_to_happen = { days = 180 }
 	
 	immediate = {
 		release = LIC
@@ -258,7 +260,6 @@ country_event = { #Conference of Carnuntum
 		news_event = rome_news.8
 		name = rome.8.b
 		release = LIC
-		add_political_power = -150
 		LIC = {
 			annex_country = { target = GAE }
 		}
@@ -270,6 +271,8 @@ country_event = { #Domitius Alexander Rises Up
 	title = rome.9.t
 	desc = rome.9.d
 	fire_only_once = yes
+
+	mean_time_to_happen = { days = 365 }
 	
 	trigger = {
 		tag = MXT
@@ -301,8 +304,83 @@ country_event = { #Domitius Alexander Rises Up
 		news_event = rome_news.9
 		name = rome.9.a
 		add_political_power = -150
-		LIC = {
+		DMA = {
 			declare_war_on = { target = GAE type = annex_everything }
+		}
+	}
+}
+#Invite to faction (Licnius)
+country_event = {
+	id = rome.10
+	title = rome.10.t
+	desc = rome.10.d
+	picture = GFX_report_event_polish_tanks_01
+
+	is_triggered_only = yes
+
+	option = { #Enter alliance
+		name = rome.10.a
+		ai_chance = {
+			factor = 90
+		}
+		ROOT = {
+			set_country_flag = alliance_accepted
+			country_event = { id = rome.11 days = 1 }
+		}
+		FROM = {
+			add_to_faction = ROOT
+		}
+	}
+
+	option = {
+		name = rome.10.b
+		ai_chance = {
+			factor = 10
+		}
+		ROOT = {
+			set_country_flag = alliance_denied
+			country_event = { id = rome.11 days = 1 }
+		}
+	}
+}
+
+#ACCEPTS/DENIES
+country_event = {
+	id = rome.11
+	title = rome.11.t
+	desc = {
+		text = rome.11.d.accept
+		trigger = has_country_flag = alliance_accepted
+	}
+	desc = {
+		text = rome.11.d.deny
+		trigger = has_country_flag = alliance denied
+
+	}
+	picture = GFX_report_event_polish_tanks_01
+
+	is_triggered_only = yes
+
+	option = { #Enter alliance
+		name = {
+			text = rome.11.a.accept
+			trigger = has_country_flag = alliance_accepted
+		}
+		name = {
+			text = rome.11.a.deny
+			trigger = has_country_flag = alliance_denied
+		}
+		if = {
+			limit = {
+				has_country_flag = alliance_accepted
+			}
+			clr_country_flag = alliance_accepted
+		}
+		if = {
+			limit = {
+				has_country_flag = alliance_denied
+			}
+			clr_country_flag = alliance_denied
 		}
 	}
 }

@@ -1,0 +1,129 @@
+﻿###########################
+# Plague Events
+###########################
+#By Dick Bong
+
+add_namespace = plague
+
+country_event = {
+	id = plague.1
+	title = plague.1.t
+	desc = plague.1.d
+
+	trigger = {
+		NOT = {
+			has_global_flag = plague
+		}
+	}	
+
+	mean_time_to_happen = { days = 365 }
+
+	option = { #oh gawd
+		name = plague.1.a
+		set_global_flag = plague
+		random_state = {  
+			set_state_flag = plague
+		}
+	}
+}
+
+country_event = { #get plague idea
+	id = plague.2
+	title = plague.2.t
+	desc = plague.2.d
+
+	trigger = {
+		any_owned_state = {
+			has_state_flag = plague
+		}
+	}	
+
+	option = { 
+		name = plague.2.a
+		set_global_flag = plague
+		if = {
+			limit = {
+				NOT = {
+					has_idea = plague
+				}	
+			}
+			add_ideas = plague #has plague #MONTHLY_POPULATION = -0.35
+		}
+	}
+}
+
+country_event = { #plague spreads
+	id = plague.3
+	title = plague.3.t
+	desc = plague.3.d
+
+	trigger = {
+		has_global_flag = plague
+		any_owned_state = {
+			has_state_flag = plague
+		}
+	}	
+
+	mean_time_to_happen = { days = 100 }
+
+	option = { 
+		name = plague.3.a
+		if = {
+			limit = {
+				any_state = {
+					has_state_flag = plague
+				}
+			}
+			random_list = {
+				50 = { 
+					random_neighbor_state = {
+						set_state_flag = plague
+					} 
+				}
+				50 = {
+					set_global_flag = plague_dying
+				}
+			}
+		}
+	}
+}
+
+country_event = { #plague dies
+	id = plague.4
+	title = plague.4.t
+	desc = plague.4.d
+
+	trigger = {
+		has_global_flag = plague
+		has_global_flag = plague_dying
+		any_owned_state = {
+			has_state_flag = plague
+		}
+	}	
+
+	mean_time_to_happen = { days = 100 }
+
+	option = { 
+		name = plague.3.a
+		if = {
+			limit = {
+				any_state = {
+					has_state_flag = plague
+				}
+			}
+			random_list = {
+				60 = {
+					if = {
+						random_owned_state = {
+							has_state_flag = plague
+						}
+						clr_state_flag = plague
+					}
+				}
+				40 = {
+					clr_global_flag = plague_dying
+				}
+			}
+		}
+	}
+}

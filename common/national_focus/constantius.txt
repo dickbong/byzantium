@@ -94,6 +94,7 @@ focus_tree = {
 				LIC = {
 					exists = yes
 				}
+				focus_progress = { focus = MXT_declare_constantine progress > 0.5 }
 			}
 		}
 		x = 5
@@ -106,7 +107,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			create_faction = "Constantine-Licnius Alliance"	
 			if = {
 				
 			}
@@ -230,6 +231,8 @@ focus_tree = {
 			}
 		}
 	}
+
+	##AFTER CIVIL WARS
 	
 	focus = {
 		id = CST_stabilize_rome

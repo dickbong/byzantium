@@ -12,39 +12,50 @@ set_politics = {
 
 	parties = {
 		christian = { 
-			popularity = 0
+			popularity = 14
 			banned = no
 		}
 
 		barbarian = {
-			popularity = 100
-			banned = no
+			popularity = 0
+			banned = yes
 			
 		}
 		
 		pagan = {
-			popularity = 0
+			popularity = 3
 			#banned = no #default is no
 		}
 		
 		other = { 
-			popularity = 0
-			banned = yes
+			popularity = 83
+			banned = no
 		}
 	}
 	
-	ruling_party = barbarian
+	ruling_party = other
 	last_election = "1936.1.1"
 	election_frequency = 0
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Tribal"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Tribal_Council.dds"
+	name = "Adur Narseh"
+	desc = "POLITICS_ADUR_NARSEH_DESC"
+	picture = "Portrait_Adur_Narseh.dds"
 	expire = "1965.1.1"
-	ideology = barbarian
+	ideology = other
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shapur II"
+	desc = "POLITICS_SHAPUR_II_DESC"
+	picture = "Portrait_Shapur_II.dds"
+	expire = "1965.1.1"
+	ideology = other
 	traits = {
 		#
 	}

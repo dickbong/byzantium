@@ -26,7 +26,7 @@ SVI = "countries/Suevi.txt"
 LOM = "countries/Lombards.txt"
 FRS = "countries/Frisians.txt"
 #Other
-PRS = "countries/Persian Empire.txt"
+PRS = "countries/Sassanids.txt"
 ARB = "countries/Arabia.txt"
 ARM = "countries/Armenia.txt"
 AKM = "countries/Aksum.txt"
