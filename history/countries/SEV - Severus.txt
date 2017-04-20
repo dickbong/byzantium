@@ -1,6 +1,6 @@
 ﻿capital = 6
 
-oob = "SEV"
+oob = ""
 
 set_technology = {
 	infantry_weapons = 1
