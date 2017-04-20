@@ -177,7 +177,7 @@ focus_tree = {
 	focus = {
 		id = CST_unite_rome
 		icon = GFX_focus_generic_strike_at_democracy1
-		mutually_exclusive = { focus = CST_preserve_tetrarchy }
+		mutually_exclusive = {  }
 		prerequisite = { focus = CST_defeat_licinius focus = CST_ally_licnius }
 		available = {
 			OR = {

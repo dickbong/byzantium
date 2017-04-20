@@ -15,10 +15,6 @@ state={
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2
-			904 = {
-				naval_base = 2
-
-			}
 
 		}
 		add_core_of = CST
@@ -33,5 +29,5 @@ state={
 	}
 	manpower=807660
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

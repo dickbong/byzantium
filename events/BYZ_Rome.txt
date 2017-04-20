@@ -362,14 +362,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { #Enter alliance
-		name = {
-			text = rome.11.a.accept
-			trigger = { has_country_flag = alliance_accepted }
-		}
-		name = {
-			text = rome.11.a.deny
-			trigger = { has_country_flag = alliance_denied }
-		}
+		name = rome.11.a
 		if = {
 			limit = {
 				has_country_flag = alliance_accepted

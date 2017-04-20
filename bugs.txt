@@ -1,311 +1,382 @@
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:31][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
-[13:40:31][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
-[13:40:36][nationalfocus.cpp:989]: CST_unite_rome: Couldn't find dependency CST_preserve_tetrarchy 
-[13:40:36][effect.cpp:225]: Invalid effect '=' in history/countries/BLG - Bulgars.txt line : 3
-[13:40:36][countryhistory.cpp:165]: Unknown History Command ==>'='<==  for Countryhistory/countries/BLG - Bulgars.txt
-[13:40:36][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 3
-" in file: "history/countries/BLG - Bulgars.txt" near line: 3
-[13:40:38][effect.cpp:225]: Invalid effect 'text' in events/BYZ_Rome.txt line : 366
-[13:40:38][persistent.cpp:36]: Error: "Unknown effect-type: text, near line: 366
-" in file: "events/BYZ_Rome.txt" near line: 366
-[13:40:38][trigger.cpp:355]: Invalid trigger '=' in events/BYZ_Rome.txt line : 367
-[13:40:38][trigger.cpp:269]: Error: "Unknown trigger-type: =, near line: 367
-" in file: "events/BYZ_Rome.txt" near line: 368
-[13:40:38][effect.cpp:225]: Invalid effect 'text' in events/BYZ_Rome.txt line : 370
-[13:40:38][persistent.cpp:36]: Error: "Unknown effect-type: text, near line: 370
-" in file: "events/BYZ_Rome.txt" near line: 370
-[13:40:38][trigger.cpp:355]: Invalid trigger '=' in events/BYZ_Rome.txt line : 371
-[13:40:38][trigger.cpp:269]: Error: "Unknown trigger-type: =, near line: 371
-" in file: "events/BYZ_Rome.txt" near line: 372
-[13:40:38][gamestate.cpp:1730]: The province 2560 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1725]: The province 4226 -  has no state.
-[13:40:38][gamestate.cpp:1730]: The province 8812 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1725]: The province 8913 -  has no state.
-[13:40:38][gamestate.cpp:1730]: The province 8913 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1725]: The province 12003 -  has no state.
-[13:40:38][gamestate.cpp:1730]: The province 12003 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1725]: The province 13015 -  has no state.
-[13:40:38][gamestate.cpp:1730]: The province 13015 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1730]: The province 13129 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1730]: The province 13178 -  has no strategic region assigned.
-[13:40:38][gamestate.cpp:1614]: 
-Naval strategic region Siberia is fractioned!
-The following provinces are separated from the rest:
-  177,373,379,1440,1513,1550,1594,1635,1751,2165,3118,3691,4155,4450,4476,4598,4600,4641,4647,7123,7245,7451,7546,7590,7622,7632,7660,7758,7788,7813,9377,10245,10254,10374,10440,10484,10498,10636,10995,11106,11350,12304,12347,12477,12505,12512,12680,12698,12960,13002,13005,13009,13010,13013,13014,13016,13058,13066,13071,13084
-[13:40:38][gamestate.cpp:1614]: 
-Naval strategic region Alpine Region is fractioned!
-The following provinces are separated from the rest:
-  2703,5918,9125,11827
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:44][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/medium/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:45][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
-[13:40:47][effect.cpp:225]: Invalid effect '=' in history/countries/BLG - Bulgars.txt line : 3
-[13:40:47][countryhistory.cpp:165]: Unknown History Command ==>'='<==  for Countryhistory/countries/BLG - Bulgars.txt
-[13:40:47][persistent.cpp:36]: Error: "Unknown effect-type: =, near line: 3
-" in file: "history/countries/BLG - Bulgars.txt" near line: 3
-[13:40:47][statehistory.cpp:293]: State Error: Trying to set invalid province building "naval_base" to province #11333.
-[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
-[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
-[13:40:47][country.cpp:3057]: Attempting to set captial state #1 for , they dont own it!
-[13:40:47][country.cpp:3057]: Attempting to set captial state #1 for , they dont own it!
-[13:40:47][country.cpp:3046]: Attempting to set captial state #0 for , it is not a valid state!
-[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
-[13:40:47][country.cpp:3057]: Attempting to set captial state #15 for , they dont own it!
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:18][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/medium/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:19][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country CST : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country OST : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country JUT : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country FRS : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
-[13:41:20][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
-[13:42:04][gamestate.cpp:4379]: 1 -  Hispaniae has too many buildings : -3
-[13:42:04][gamestate.cpp:4379]: 2 -  Viennesis has too many buildings : -4
-[13:42:04][gamestate.cpp:4379]: 3 -  Galliae has too many buildings : -2
-[13:42:04][gamestate.cpp:4379]: 7 -  Frisia has too many buildings : -8
-[13:42:04][gamestate.cpp:4379]: 12 -  Saxony has too many buildings : -6
-[13:42:04][gamestate.cpp:4379]: 19 -  Great Hungarian Plane has too many buildings : -6
-[13:42:04][gamestate.cpp:4379]: 22 -  Pannonaie has too many buildings : -3
-[13:42:04][gamestate.cpp:4379]: 23 -  Illyricium has too many buildings : -3
-[13:42:04][gamestate.cpp:4379]: 24 -  Moesia has too many buildings : -2
-[13:42:04][gamestate.cpp:4379]: 25 -  Thracia has too many buildings : -2
-[13:42:04][gamestate.cpp:4379]: 26 -  Pontica has too many buildings : -1
-[13:42:04][gamestate.cpp:4379]: 27 -  Oriens has too many buildings : -1
-[13:42:04][gamestate.cpp:4379]: 29 -  Africa has too many buildings : -1
-[13:42:04][gamestate.cpp:4379]: 33 -  East Africa has too many buildings : -2
-[13:42:04][gamestate.cpp:4379]: 44 -  Ethiopia has too many buildings : -4
-[13:42:04][gamestate.cpp:4379]: 47 -  Thessaly has too many buildings : -4
-[13:42:04][gamestate.cpp:4379]: 59 -  Asiana has too many buildings : -3
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:01][pdx_audio.cpp:1011]: Missing sound effect: infantry_mg_support_attack
+[19:41:01][pdx_entity.cpp:113]: Couldn't find sound effect: "infantry_mg_support_attack"
+[19:41:04][gamestate.cpp:1730]: The province 2165 -  has no strategic region assigned.
+[19:41:04][gamestate.cpp:1725]: The province 4226 -  has no state.
+[19:41:04][gamestate.cpp:1725]: The province 12003 -  has no state.
+[19:41:04][gamestate.cpp:1730]: The province 12003 -  has no strategic region assigned.
+[19:41:04][gamestate.cpp:1730]: The province 13002 -  has no strategic region assigned.
+[19:41:04][gamestate.cpp:1730]: The province 13005 -  has no strategic region assigned.
+[19:41:04][gamestate.cpp:1730]: The province 13129 -  has no strategic region assigned.
+[19:41:06][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/ : File not found
+[19:41:06][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : Unexpected texture dimensions
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:07][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology democratic : Path gfx/flags/small/ : Unexpected texture dimensions
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:08][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 4823: map building(Naval Base) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 12207. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 4829: map building(Naval Base) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 13067. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 4984: map building(Land Fort) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 12207. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 4985: map building(Land Fort) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 13067. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 4994: map building(Coastal Fort) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 12207. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 5002: map building(Coastal Fort) location is not within specified state. Supposed to be '48 - East Siberia' but was '84 - Japan'for province 13067. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7070: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 153. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7078: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 177. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7080: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1513. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7085: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 373. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7094: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 379. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7096: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1550. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7097: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7105: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1594. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7109: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1635. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7111: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1712. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7112: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1751. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7144: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3118. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7146: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3284. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7149: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3691. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7157: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4155. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7172: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4450. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7175: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4476. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7182: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4598. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7183: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4600. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7187: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4641. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7189: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4647. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7243: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7123. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7246: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7256: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7451. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7261: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7546. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7264: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7590. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7267: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7622. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7269: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7632. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7272: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7660. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7275: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7758. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7276: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7788. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7279: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7813. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7308: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 9377. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7329: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7330: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10254. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7337: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10374. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7343: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7346: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10484. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7349: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10498. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7357: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10636. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7383: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10995. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7389: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11106. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7390: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11350. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7412: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12304. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7416: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12347. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7429: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12477. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7432: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12505. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7433: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12512. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7435: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12680. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7436: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12698. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7461: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12960. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7468: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13009. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7469: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13010. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7470: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13012. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7471: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13013. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7472: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13014. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7473: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13016. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7474: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13066. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7475: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13071. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7476: map building(Naval Base) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13084. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7514: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 153. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7539: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1550. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7589: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7612: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1513. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7622: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 373. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7626: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1594. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7641: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1635. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7642: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 177. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7657: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1712. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7665: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 379. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7666: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1751. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7803: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3118. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7805: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3284. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7824: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3691. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7881: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4155. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7917: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4450. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7921: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4476. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7949: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4598. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7950: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4600. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7963: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4641. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 7965: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4647. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8202: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7123. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8207: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8231: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7451. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8247: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7546. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8261: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7590. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8270: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7622. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8275: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7632. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8282: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7660. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8296: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7758. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8308: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7788. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8314: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7813. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8442: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 9377. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8541: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8544: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10254. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8567: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10374. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8588: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8602: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10484. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8607: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10498. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8642: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10636. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8757: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10995. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8774: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11106. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8775: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11350. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8874: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12304. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8886: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12347. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8926: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12477. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8937: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12505. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8939: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12512. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8980: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12680. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 8987: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12698. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9067: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12960. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9088: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13009. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9089: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13010. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9090: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13012. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9091: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13013. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9092: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13014. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9093: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13016. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9094: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13058. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9095: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13066. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9097: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13071. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9100: map building(Land Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13084. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9120: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1513. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9127: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 153. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9137: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 379. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9138: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9140: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 177. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9144: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1550. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9148: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1594. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9153: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 373. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9158: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1635. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9162: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1712. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9163: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 1751. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9196: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3118. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9198: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3284. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9201: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 3691. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9209: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4155. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9224: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4450. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9227: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4476. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9234: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4598. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9235: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4600. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9239: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4641. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9241: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 4647. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9295: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7123. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9298: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9308: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7451. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9313: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7546. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9316: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7590. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9319: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7622. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9321: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7632. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9324: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7660. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9327: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7758. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9328: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7788. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9331: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 7813. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9360: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 9377. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9381: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10245. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9382: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10254. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9389: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10374. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9395: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10440. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9398: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10484. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9401: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10498. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9409: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10636. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9435: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 10995. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9441: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11106. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9442: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 11350. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9464: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12304. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9468: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12347. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9481: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12477. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9484: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12505. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9485: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12512. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9487: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12680. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9488: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12698. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9513: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 12960. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9520: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13009. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9521: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13010. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9522: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13012. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9523: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13013. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9524: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13014. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9525: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13016. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9526: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13066. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9527: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13071. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 9528: map building(Coastal Fort) location is not within specified state. Supposed to be '72 - The New World' but was '91 - Atlantic Islands'for province 13084. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11814: map building(Military Factory) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1755. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11823: map building(Civilian Factory) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 855. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11826: map building(Naval Base) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1755. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11827: map building(Naval Base) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 855. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11828: map building(Naval Base) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1742. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11878: map building(Land Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1742. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11898: map building(Land Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1755. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11908: map building(Land Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 855. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11967: map building(Coastal Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 855. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11968: map building(Coastal Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1742. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 11978: map building(Coastal Fort) location is not within specified state. Supposed to be '80 - Far East' but was '84 - Japan'for province 1755. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 12034: map building(Naval Base) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 2165. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 12494: map building(Naval Base) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13002. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 12495: map building(Naval Base) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13005. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 12638: map building(Land Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 2165. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 13235: map building(Land Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13002. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 13236: map building(Land Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13005. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 13314: map building(Coastal Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 2165. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 13755: map building(Coastal Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13002. BUILDING IGNORED!
+[19:41:16][mapbuildings.cpp:453]: map/buildings.txt error at line 13756: map building(Coastal Fort) location is not within specified state. Supposed to be '81 - Oceania' but was '83 - Indian Ocean Islands'for province 13005. BUILDING IGNORED!
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country HUN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/medium/ : File not found
+[19:41:38][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/medium/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : Unexpected texture dimensions
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country LIC : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country GAE : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country MXM : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country MXT : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SEV : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country DMA : Ideology pagan : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country PIC : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country IRI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country FNN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SLV : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SAX : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country FRK : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country VIS : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country VAN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country ALN : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country BRG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country BLG : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SVI : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country LOM : Ideology barbarian : Path gfx/flags/small/ : Unexpected texture dimensions
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country PRS : Ideology other : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country ARB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country AKM : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country NUB : Ideology barbarian : Path gfx/flags/small/ : File not found
+[19:41:39][flagtextureatlas.cpp:460]: Error loading flag for country SIB : Ideology other : Path gfx/flags/small/ : File not found
