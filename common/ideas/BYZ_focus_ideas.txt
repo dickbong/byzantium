@@ -53,20 +53,7 @@ ideas = {
 			}
 			
 			modifier = {
-				if = {
-					limit = {
-						has_government = barbarian
-					}
-					drift_defence_factor = 0.75
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_government = barbarian
-						}
-					}
-					barbarian_drift = 0.05
-				}
+				barbarian_drift = 0.05
 			}
 		}
 	}
