@@ -62,7 +62,7 @@ bookmarks = {
 			}
 		}
 		
-		"HUN"={
+		"HNS"={
 			history = "GER_TETRARCHY_DESC"
 			ideology = pagan
 			ideas = {

@@ -1,0 +1,7 @@
+﻿l_english:
+
+#TECH GROUPS & ABILITIES
+ tech_group_barbarian:0 "Barbarian Tech Group"
+ tech_group_barbarian_desc:0 "Barbarian's tribal makeup and political system does not allow for centralization or any type of scientific production."
+ ability_barbarian:0 "Barbarian Ability"
+ ability_barbarian_desc:0 "Although not skilled in the arts of math or science, barbarians are skilled in the arts of the blade."

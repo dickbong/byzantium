@@ -1,0 +1,26 @@
+﻿l_english:
+#IDEOLOGIES/RELIGIONS
+ barbarian:0 "Barbarian"
+ barbarian_noun:0 "Barbarian"
+ pagan:0 "Pagan"
+ pagan_noun:0 "Paganism"
+ christian:0 "Christian"
+ christian_noun:0 "Christianity"
+ other:0 "Other"
+ other_noun:0 "Other"
+ barbarian_desc:0 "Unorganized State"
+ pagan_desc:0 "Pagan Regime"
+ christian_desc:0 "Christian Regime"
+ other_desc:0 "Other Regime"
+ 
+ #BARBARIAN SUB-IDEOLOGIES
+ germanic_barbarianism:0 "Germanic Barbarianism"
+ germanic_barbarianism_desc:0 "Germanic Barbarians often worship false gods and pillage every village and city they can find."
+ 
+ #PAGAN SUB-IDEOLOGIES
+ roman_paganism:0 "Roman Paganism"
+ roman_paganism_desc:0 "Roman Pagans worship gods such as Venus, Saturn, Pluto, and more. They often have festivals celebrating comings of the new seasons."
+ 
+ #PARTIES
+ GER_fascism_party:0 "NSDAP"
+ GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

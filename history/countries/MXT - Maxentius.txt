@@ -35,22 +35,24 @@ set_politics = {
 	elections_allowed = no
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Maxentius"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	desc = "POLITICS_MAXIMINUS_DESC"
+	picture = "Portrait_Maxentius.dds"
 	expire = "1965.1.1"
-	ideology = roman
+	ideology = roman_paganism
 	traits = {
 		#
 	}
 }
 
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
+create_country_leader = {
+	name = "Maxentius & Maximian"
+	desc = "POLITICS_MAXIMINUS_DESC"
+	picture = "Portrait_Maxentius.dds"
+	expire = "1965.1.1"
+	ideology = roman_paganism
+	traits = {
+		#
+	}
 }

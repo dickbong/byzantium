@@ -16,7 +16,7 @@ SAX = "countries/Saxons.txt"
 FRK = "countries/Franks.txt"
 VIS = "countries/Visigoths.txt"
 VAN = "countries/Vandals.txt"
-HUN = "countries/Huns.txt"
+HNS = "countries/Huns.txt" #Change to HNS
 ALN = "countries/Alans.txt"
 JUT = "countries/Jutes.txt"
 ANG = "countries/Angles.txt"
@@ -28,7 +28,7 @@ FRS = "countries/Frisians.txt"
 #Other
 PRS = "countries/Sassanids.txt"
 ARB = "countries/Arabia.txt"
-ARM = "countries/Armenia.txt"
+AMN = "countries/Armenia.txt" #Change to AMN
 AKM = "countries/Aksum.txt"
 NUB = "countries/Nubia.txt"
 SIB = "countries/Siberia.txt"

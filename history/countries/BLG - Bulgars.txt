@@ -8,6 +8,11 @@ set_technology = {
 	basic_light_tank = 1
 }
 
+add_ideas = {
+	tech_group_barbarian
+	ability_barbarian
+}
+
 set_politics = {
 
 	parties = {

@@ -1,6 +1,6 @@
-﻿capital = 38
+﻿capital = 50
 
-oob = "FIN"
+oob = "HNS"
 
 set_technology = {
 	infantry_weapons = 1

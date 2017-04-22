@@ -4,10 +4,13 @@ ideologies = {
 	
 		types = {
 		
-			roman = {
+			roman_paganism = {
 			}
 			
 			pagan = {
+			}
+			
+			germanic = {
 			}
 		}
 		
@@ -83,6 +86,12 @@ ideologies = {
 		
 			other = {
 			}
+			
+			tribalism = {
+			}
+			
+			zoroastrianism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -116,6 +125,9 @@ ideologies = {
 		types = {
 		
 			barbarian = {
+			}
+			
+			germanic_barbarianism = {
 			}
 		}
 		

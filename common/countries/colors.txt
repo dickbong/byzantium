@@ -577,7 +577,7 @@ VIS = {
 	color = rgb  { 153  116  93 }
 	color_ui = rgb { 153  116  93 }
 }
-HUN = {
+HNS = {
 	color = rgb  { 111  55  78 }
 	color_ui = rgb { 111  55  78 }
 }
@@ -593,7 +593,7 @@ ARB = {
 	color = rgb  { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
 }
-ARM = {
+AMN = {
 	color = rgb  { 125  13  24 }
 	color_ui = rgb { 125  13  24 }
 }

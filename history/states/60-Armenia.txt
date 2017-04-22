@@ -13,8 +13,8 @@ state={
 			air_base = 2
 
 		}
-		owner = ARM
-		add_core_of = ARM
+		owner = AMN
+		add_core_of = AMN
 	}
 
 	provinces={

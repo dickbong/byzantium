@@ -8,6 +8,11 @@ set_technology = {
 	basic_light_tank = 1
 }
 
+add_ideas = {
+	tech_group_roman
+	ability_pagan
+}
+
 set_politics = {
 
 	parties = {
@@ -35,24 +40,23 @@ set_politics = {
 	elections_allowed = no
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Constantine"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	desc = "POLITICS_CONSTANTIUS_DESC"
 	picture = "Portrait_Rome_Constantine.dds"
 	expire = "1965.1.1"
-	ideology = roman
+	ideology = roman_paganism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Constantius"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Rome_.dds"
+	name = "Constantius Chlorus"
+	desc = "POLITICS_CONSTANTIUS_DESC"
+	picture = "Portrait_Constantius.dds"
 	expire = "1965.1.1"
-	ideology = roman
+	ideology = roman_paganism
 	traits = {
 		#
 	}

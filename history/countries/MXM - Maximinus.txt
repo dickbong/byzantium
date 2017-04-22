@@ -35,13 +35,12 @@ set_politics = {
 	elections_allowed = no
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Maximinus"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	desc = "POLITICS_MAXIMINUS_DESC"
+	picture = "Portrait_Maximinus.dds"
 	expire = "1965.1.1"
-	ideology = roman
+	ideology = roman_paganism
 	traits = {
 		#
 	}
