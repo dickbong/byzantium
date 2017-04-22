@@ -1,0 +1,162 @@
+focus_tree = {
+	id = saxony
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = saxony
+		}
+	}
+	default = no
+	#Custom focuses start here
+	#Focus for - Organize Raid
+	focus = {
+		id = organizeraid
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x =2
+		y =0
+		mutually_exclusive = { }
+		prerequisite = { }
+		available = { 
+			any_neighbor_country = {
+				NOT = {
+					has_government = barbarian
+				}
+			}
+		}
+		cost = 15 
+ 		available_if_capitulated = yes 
+		completion_reward = {
+			country_event = { id = barbarian.4 days = 1 }
+		}
+	}
+
+	focus = {
+		id = embrace_christianity
+		icon = GFX_focus_generic_strike_at_democracy1
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x =4
+		y =0
+		mutually_exclusive = { focus = embrace_paganism focus = embrace_other focus = embrace_barbarianism }
+		prerequisite = { }
+		available = { 
+			OR = {
+				any_neighbor_country = {
+					has_government = christian
+				}
+				any_owned_state = {
+					is_owned_by = ROOT
+					OR = {
+						has_state_flag = christian_religion
+						has_state_flag = roman_culture
+					}
+				}
+			}
+		}
+		cost = 20
+ 		available_if_capitulated = yes 
+		completion_reward = {
+			add_ideas = embraced_christianity
+		}
+	}
+	focus = {
+		id = embrace_paganism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x =6
+		y =0
+		mutually_exclusive = { focus = embrace_christianity focus = embrace_other focus = embrace_barbarianism }
+		prerequisite = { }
+		available = { 
+			OR = {
+				any_neighbor_country = {
+					has_government = pagan
+				}
+				any_owned_state = {
+					is_owned_by = ROOT
+					OR = {
+						has_state_flag = christian_religion
+						has_state_flag = roman_culture
+					}
+				}
+			}
+		}
+		cost = 20
+ 		available_if_capitulated = yes 
+		completion_reward = {
+			add_ideas = embraced_paganism
+		}
+	}
+	focus = {
+		id = embrace_other
+		icon = GFX_focus_generic_japanese_imperial_glory
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x =8
+		y =0
+		mutually_exclusive = { focus = embrace_christianity focus = embrace_paganism focus = embrace_barbarianism }
+		prerequisite = { }
+		available = { 
+			OR = {
+				any_neighbor_country = {
+					has_government = other
+				}
+				any_owned_state = {
+					is_owned_by = ROOT
+					OR = {
+						has_state_flag = other_religion
+						has_state_flag = persian_culture
+						has_state_flag = arabic_culture
+					}
+				}
+			}
+		}
+		cost = 20
+ 		available_if_capitulated = yes 
+		completion_reward = {
+			add_ideas = embraced_other
+		}
+	}
+	focus = {
+		id = centralize_government
+		icon = GFX_focus_generic_japanese_imperial_glory
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x = 4
+		y = 1
+		mutually_exclusive = {  }
+		prerequisite = { focus = embrace_other focus = embrace_christianity focus = embrace_paganism focus = embrace_barbarianism }
+		available = { 
+			
+		}
+		cost = 200
+ 		available_if_capitulated = yes 
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = embrace_barbarianism
+		icon = GFX_focus_generic_japanese_imperial_glory
+		bypass = {}
+		ai_will_do = { factor = 5}
+		x = 4
+		y = 1
+		mutually_exclusive = {  }
+		prerequisite = { focus = embrace_other focus = embrace_christianity focus = embrace_paganism focus = embrace_other }
+		available = { 
+			
+		}
+		cost = 200
+ 		available_if_capitulated = yes 
+		completion_reward = {
+
+		}
+	}
+
+#end
+}

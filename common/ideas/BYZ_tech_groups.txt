@@ -1,0 +1,161 @@
+ideas = {
+	country = {
+		tech_group_barbarian = {
+			
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				research_time_factor = 1.0
+				production_speed_buildings_factor = -1.0
+			}
+		}
+		ability_barbarian = {
+			
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+				training_time_factor = -0.5
+				conscription = 0.1
+				army_morale_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				political_power_factor = -0.5
+				barbarian_acceptance = -10
+				other_acceptance = -20
+				pagan_acceptance = -20
+				christian_acceptance = -20
+
+			}
+		}
+		tech_group_roman = {
+
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_time_factor = -0.1
+				production_speed_buildings_factor = 0.1
+			}	
+		}
+		tech_group_standard = {
+
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_time_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}	
+		}
+		ability_pagan = {
+			
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+				unity_factor = -0.10
+				drift_defence_factor = 0.35
+				industry_repair_factor = 0.1
+				subjects_autonomy_gain = -0.1
+				consumer_goods_factor = 0.1
+				training_time_factor = 0.2
+				political_power_factor = 0.75
+				barbarian_acceptance = -20
+				other_acceptance = -20
+				pagan_acceptance = 20
+				christian_acceptance = -10
+			}
+		}
+		ability_christian = {
+			
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+				unity_factor = -0.10
+				drift_defence_factor = 0.35
+				industry_repair_factor = 0.1
+				subjects_autonomy_gain = -0.1
+				consumer_goods_factor = 0.1
+				training_time_factor = 0.2
+				political_power_factor = 0.75
+				barbarian_acceptance = -20
+				other_acceptance = -20
+				pagan_acceptance = -30 #oppressive nature
+				christian_acceptance = 20
+			}
+		}
+		tech_group_other = {
+
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				research_time_factor = 0.3
+				production_speed_buildings_factor = -0.05
+			}	
+		}
+		ability_other = {
+			
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.1
+				training_time_factor = 0.15
+				drift_defence_factor = 0.25
+				unity_factor = 0.5
+				barbarian_acceptance = -5
+				pagan_acceptance = -20 #oppressive nature
+				christian_acceptance = -20
+			}
+		}
+	}
+}
