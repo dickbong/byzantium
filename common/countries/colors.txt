@@ -609,6 +609,11 @@ DMA = {
 	color = rgb  { 51  0  102 }
 	color_ui = rgb { 51  0  102 }
 }
+SVI = {
+	color = rgb  { 198  255  165 }
+	color_ui = rgb { 198  255  165 }
+}
+
 
 
 
