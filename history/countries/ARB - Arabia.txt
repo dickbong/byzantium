@@ -2,10 +2,9 @@
 
 oob = "ARB"
 
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-	basic_light_tank = 1
+add_ideas = {
+	tech_group_other
+	ability_other
 }
 
 set_politics = {
@@ -40,11 +39,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tribal"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	name = "Tribal Council"
+	desc = "POLITICS_Tribal_Council_DESC"
 	picture = "Portrait_Tribal_Council.dds"
 	expire = "1965.1.1"
-	ideology = barbarian
+	ideology = other
 	traits = {
 		#
 	}

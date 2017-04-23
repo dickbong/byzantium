@@ -8,6 +8,11 @@ set_technology = {
 	basic_light_tank = 1
 }
 
+add_ideas = {
+	tech_group_other
+	ability_other
+}
+
 set_politics = {
 
 	parties = {
@@ -40,11 +45,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tribal"
+	name = "Tribal Council"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Tribal_Council.dds"
 	expire = "1965.1.1"
-	ideology = barbarian
+	ideology = other
 	traits = {
 		#
 	}

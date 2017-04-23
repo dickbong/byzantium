@@ -129,6 +129,9 @@ ideologies = {
 			
 			germanic_barbarianism = {
 			}
+			
+			nomadic = {
+			}
 		}
 		
 		dynamic_faction_names = {

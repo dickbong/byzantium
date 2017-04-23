@@ -1,0 +1,125 @@
+focus_tree = {
+	id = PRS_focus
+
+	country = {
+		factor=0
+		
+		modifier = {
+			add = 10
+			tag = PRS
+		}
+	
+		modifier = {
+			add = 10
+			original_tag = PRS
+		}
+	}
+	default = no
+#Custom focuses start here
+#Focus for - Surprise Strike
+focus = {
+	id =surprisestrike
+	icon =GFX_goal_generic_major_war
+	x =10
+	y =1
+	mutually_exclusive = { focus = }
+	prerequisite = { focus = armenianclaims}
+	available = {  }
+	cost = 30 
+	available_if_capitulated = yes 
+	completion_reward = {
+
+	}
+}
+#Focus for - Armenian Claims
+focus = {
+	id =armenianclaims
+	icon =GFX_goal_generic_more_territorial_claims
+	x =10
+	y =0
+	mutually_exclusive = { focus = }
+	prerequisite = { focus = }
+	available = {  }
+	cost = 60 
+	available_if_capitulated = yes 
+	completion_reward = {
+
+	}
+}
+#Focus for - Secure Arabia
+focus = {
+	id =securearabia
+	icon =GFX_goal_generic_construct_military
+	x =12
+	y =0
+	mutually_exclusive = { focus = }
+	prerequisite = { focus = }
+	available = {  }
+	cost = 60 
+	available_if_capitulated = yes 
+	completion_reward = {
+	
+	}
+}
+#Focus for - Persecute the Christians
+focus = {
+id =persecutethechristians
+icon =GFX_focus_SAF_colonialist_crusade
+x =8
+y =0
+mutually_exclusive = { focus = humanism}
+prerequisite = { focus = }
+available = {  }
+cost = 30 
+ available_if_capitulated = yes 
+completion_reward = {
+
+}
+}
+#Focus for - Humanism
+focus = {
+id =humanism
+icon =GFX_goal_generic_major_alliance
+x =6
+y =0
+mutually_exclusive = { focus = persecutethechristians}
+prerequisite = { focus = }
+available = {  }
+cost = 30 
+ available_if_capitulated = yes 
+completion_reward = {
+
+}
+}
+#Focus for - Attack the Tigris
+focus = {
+id =attackthetigris
+icon =GFX_focus_RAJ_indian_gurkhas
+x =12
+y =1
+mutually_exclusive = { focus = arabiannonagression}
+prerequisite = { focus = securearabia}
+available = {  }
+cost = 30 
+ available_if_capitulated = yes 
+completion_reward = {
+
+}
+}
+#Focus for - Arabian Non-Agression
+focus = {
+id =arabiannonagression
+icon =GFX_goal_generic_improve_relations
+x =14
+y =1
+mutually_exclusive = { focus = attackthetigris}
+prerequisite = { focus = securearabia}
+available = {  }
+cost = 30 
+ available_if_capitulated = yes 
+completion_reward = {
+
+}
+}
+#end
+}
