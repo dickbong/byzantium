@@ -1,7 +1,5 @@
 ﻿capital = 60
 
-oob = "ARM"
-
 add_ideas = {
 	tech_group_other
 	ability_other
@@ -11,23 +9,23 @@ set_politics = {
 
 	parties = {
 		christian = { 
-			popularity = 0
+			popularity = 30
 			banned = no
 		}
 
 		barbarian = {
-			popularity = 100
+			popularity = 0
 			banned = no
 			
 		}
 		
 		pagan = {
-			popularity = 0
+			popularity = 10
 			#banned = no #default is no
 		}
 		
 		other = { 
-			popularity = 0
+			popularity = 60
 			banned = yes
 		}
 	}
@@ -39,20 +37,12 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Tribal"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Tribal_Council.dds"
+	name = "Khosrov the Short"
+	desc = "POLITICS_KHOSROV_DESC"
+	picture = "Portrait_Khosrov.dds"
 	expire = "1965.1.1"
-	ideology = barbarian
+	ideology = christian
 	traits = {
 		#
 	}
-}
-
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
 }

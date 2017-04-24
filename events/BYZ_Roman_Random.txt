@@ -1,0 +1,288 @@
+﻿###########################
+# Roman Events
+###########################
+
+add_namespace = rome_random
+
+country_event = { #a new year
+	id = rome_random.1
+	title = rome_random.1.t
+	desc = rome_random.1.d
+
+	trigger = {
+		NOT = {
+			has_country_flag = deez_nuts
+		}
+		OR = {
+			tag = DMA
+			tag = GAE
+			tag = 
+		}
+	}
+
+	immediate = {
+		add_country_flag = reset_generic_rome_events
+		add_country_flag = key_generic_rome_events
+	}
+
+	option = {
+		name = rome_random.1
+		country_event = { days = 365 id = rome_random.1 }
+		clr_country_flag = reset_generic_rome_events
+	}
+}
+
+country_event = { #peasants
+	id = rome_random.2
+	title = rome_random.2.t
+	desc = rome_random.2.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_1
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.2.a
+		add_political_power = -50
+		add_country_flag = generic_rome_event_1
+	}
+}
+
+country_event = { #christian peasants
+	id = rome_random.3
+	title = rome_random.3.t
+	desc = rome_random.3.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_2
+			has_government = christian
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.3.a
+		add_political_power = -50
+		add_popularity = { ideology = christian popularity = 0.01 }	
+		add_country_flag = generic_rome_event_2
+	}
+
+
+	option = {
+		name = rome_random.3.b
+		add_political_power = -100
+		add_country_flag = generic_rome_event_2
+	}
+}
+
+country_event = { #pagan peasants
+	id = rome_random.4
+	title = rome_random.4.t
+	desc = rome_random.4.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_3
+			has_government = christian
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.4.a
+		add_political_power = -50
+		add_popularity = { ideology = pagan popularity = 0.01 }	
+		add_country_flag = generic_rome_event_3
+	}
+
+
+	option = {
+		name = rome_random.4.b
+		add_political_power = -100
+		add_country_flag = generic_rome_event_3
+	}
+}
+
+country_event = { #peasants
+	id = rome_random.5
+	title = rome_random.5.t
+	desc = rome_random.5.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_4
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.5.a
+		add_political_power = -75
+		add_country_flag = generic_rome_event_4
+	}
+}
+
+country_event = { #peasants
+	id = rome_random.6
+	title = rome_random.6.t
+	desc = rome_random.6.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_5
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.6.a
+		add_political_power = -100
+		add_country_flag = generic_rome_event_5
+	}
+}
+
+country_event = { #bad stuff
+	id = rome_random.7
+	title = rome_random.7.t
+	desc = rome_random.7.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_6
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.7.a
+		add_political_power = 50
+		add_country_flag = generic_rome_event_6
+	}
+}
+
+country_event = { #goodness
+	id = rome_random.8
+	title = rome_random.8.t
+	desc = rome_random.8.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_7
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+	}
+
+	option = {
+		name = rome_random.8.a
+		add_political_power = 75
+		add_country_flag = generic_rome_event_7
+	}
+}
+
+#CIVIL WARS
+
+country_event = { #christian revolt
+	id = rome_random.9
+	title = rome_random.9.t
+	desc = rome_random.9.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_7
+			has_government = christian
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+		OR = {
+			has_idea = bad_stability
+			has_idea = very_bad_stability
+			has_idea = disaster
+			has_national_unity < 40
+		}
+		
+	}
+
+	option = {
+		name = rome_random.9.a
+		add_political_power = -150
+		add_country_flag = generic_rome_event_8
+		start_civil_war = { ideology = christian size = 0.3 }
+	}
+}
+
+
+country_event = { #christian revolt
+	id = rome_random.10
+	title = rome_random.10.t
+	desc = rome_random.10.d
+
+	mean_time_to_happen = { days = 730 }
+
+	trigger = {
+		NOT = {
+			has_country_flag = reset_generic_rome_events
+			has_country_flag = generic_rome_event_7
+			has_government = pagan
+		}
+		AND = {
+			has_country_flag = key_generic_rome_events
+		}
+		OR = {
+			has_idea = bad_stability
+			has_idea = very_bad_stability
+			has_idea = disaster
+			has_national_unity < 40
+		}
+		
+	}
+
+	option = {
+		name = rome_random.10.a
+		add_political_power = -150
+		add_country_flag = generic_rome_event_9
+		start_civil_war = { ideology = pagan size = 0.3 }
+	}
+}

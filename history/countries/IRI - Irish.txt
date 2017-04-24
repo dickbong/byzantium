@@ -1,7 +1,5 @@
 ﻿capital = 69
 
-oob = ""
-
 add_ideas = {
 	tech_group_barbarian
 	ability_barbarian
@@ -42,7 +40,7 @@ create_country_leader = {
 	name = "Fiacha Sraibhtine"
 	desc = "POLITICS_Fiacha Sraibhtine_DESC"
 	picture = "Portrait_Celt_Generic_1.dds"
-	expire = "322.1.1"
+	expire = "400.1.1"
 	ideology = barbarian
 	traits = {
 		#

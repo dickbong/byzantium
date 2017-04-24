@@ -1,16 +1,10 @@
 ﻿capital = 32
 
-oob = "AKM"
-
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-	basic_light_tank = 1
-}
+oob = ""
 
 add_ideas = {
-	tech_group_other
-	ability_other
+	tech_group_barbarian
+	ability_barbarian
 }
 
 set_politics = {
@@ -46,19 +40,11 @@ set_politics = {
 
 create_country_leader = {
 	name = "Tribal Council"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	desc = "POLITICS_TRIBAL_COUNCIL_DESC"
 	picture = "Portrait_Tribal_Council.dds"
 	expire = "1965.1.1"
-	ideology = other
+	ideology = barbarian
 	traits = {
 		#
 	}
-}
-
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
 }

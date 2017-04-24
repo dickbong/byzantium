@@ -1,7 +1,9 @@
 ﻿capital = 6
 
-oob = "CST"
-
+add_ideas = {
+	tech_group_roman
+	ability_pagan
+}
 
 set_politics = {
 
@@ -32,7 +34,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Maxentius"
-	desc = "POLITICS_MAXIMINUS_DESC"
+	desc = "POLITICS_MAXENTIUS_DESC"
 	picture = "Portrait_Maxentius.dds"
 	expire = "1965.1.1"
 	ideology = roman_paganism
@@ -43,7 +45,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Maxentius & Maximian"
-	desc = "POLITICS_MAXIMINUS_DESC"
+	desc = "POLITICS_MAXENTIUS_DESC"
 	picture = "Portrait_Maxentius.dds"
 	expire = "1965.1.1"
 	ideology = roman_paganism

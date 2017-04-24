@@ -1,7 +1,5 @@
 ﻿capital = 2
 
-oob = ""
-
 add_ideas = {
 	tech_group_roman
 	ability_pagan
@@ -54,11 +52,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
 }

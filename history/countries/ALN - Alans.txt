@@ -1,6 +1,6 @@
 ﻿capital = 61
 
-oob = "ALN"
+oob = ""
 
 add_ideas = {
 	tech_group_barbarian
@@ -39,20 +39,12 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Nomadic Peoples"
-	desc = "POLITICS_NOMADIC_PEOPLES_DESC"
+	name = "Tribal Council"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Tribal_Council.dds"
 	expire = "1965.1.1"
-	ideology = nomadic
+	ideology = germanic_barbarianism
 	traits = {
 		#
 	}
-}
-
-
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
 }
