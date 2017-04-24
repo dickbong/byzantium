@@ -1,0 +1,35 @@
+
+state={
+	id=69
+	name="STATE_69"
+	resources={
+		aluminium=2.000
+		steel=3.000
+	}
+
+	history={
+		victory_points = {
+			11293 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			11293 = {
+				# = 1
+
+			}
+
+		}
+		owner = IRI
+		add_core_of = IRI
+
+	}
+
+	provinces={
+		276 285 303 337 369 385 3217 3242 3329 3342 3359 3379 6289 6313 6405 7377 7394 9284 9310 9405 11237 11257 11267 11293 11303 11334 
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

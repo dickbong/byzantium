@@ -1,0 +1,19 @@
+
+state={
+	id=30
+	name="STATE_30"
+
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		992 1028 1064 1143 1206 1977 2003 2064 4068 4910 5069 7117 7148 7156 7216 10097 10127 10869 10902 11999 12099 12725 12816 
+	}
+	manpower=4224516
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
