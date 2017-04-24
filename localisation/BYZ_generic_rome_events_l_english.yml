@@ -1,0 +1,43 @@
+﻿l_english:
+ rome_random.1.t:0 "A New Year"
+ rome_random.1.d:0 "A new year has dawned upon [Root.GetName], and new challenges and obstacles face us. Glory to [From.GetNameDef]!"
+ rome_random.1.a:0 "New opportunities await!"
+
+ rome_random.2.t:0 "Displeasure Amongst the Peasantry"
+ rome_random.2.d:0 "The peasants of [Root.GetName] are uncontent with their current positions and some have gone on strikes to protest our system of government."
+ rome_random.2.a:0 "Well, that isn't productive."
+
+ rome_random.3.t:0 "Christianity Spreads Amongst the Peasantry"
+ rome_random.3.d:0 "The infidel words of Christ have spread through the minds of the peasants of [Root.GetName]. We may be able to stop it, but at a price."
+ rome_random.3.a:0 "Christ never hurt anyone."
+ rome_random.3.a:0 "Not in my pagan neighborhood!"
+
+ rome_random.4.t:0 "Paganism Spreads Amongst the Peasantry"
+ rome_random.4.d:0 "The false gods have spread through the minds of the peasants of [Root.GetName]. We may be able to stop it, but at a price."
+ rome_random.4.a:0 "Ares never hurt anyone."
+ rome_random.4.a:0 "Not in my pagan neighborhood!"
+
+ rome_random.5.t:0 "Military Accident"
+ rome_random.5.d:0 "Military exercises have gone a bit askew when a legionarrie accidenly punctured 4 others with a javelin. This example has made a mockery of our military."
+ rome_random.5.a:0 "Yikes."
+
+ rome_random.6.t:0 "Sultry Politician"
+ rome_random.6.d:0 "Yesterday, a politician was exposed loving with his lady in the middle of the consulate! This has made a mockery of our traditions and hurt the fundamental foundations of our empire!"
+ rome_random.6.a:0 "He was just having a little fun?"
+
+ rome_random.7.t:0 "Festivities Commence"
+ rome_random.7.d:0 "The peasants recently had a festival and spirits are high! While they down jugs of mead, in their drunken fervor, their loyalties fabricate to our government."
+ rome_random.7.a:0 "I love the peasants!"
+
+ rome_random.8.t:0 "Political Opponents Humiliated"
+ rome_random.8.d:0 "Lately, our political opposition has been caught red-handed drunken in the streets outside a tavern. They have been publicly shamed and tomato-ed. The loyalty to our government grows stronger!"
+ rome_random.8.a:0 "I love the peasants!"
+
+ rome_random.9.t:0 "Christian Revolt"
+ rome_random.9.d:0 "Christian rebels have had it with our 'oppressive' rule and have decided to revolt. We must mobilize quickly if we are to preserve our rule."
+ rome_random.9.a:0 "Blast!"
+
+ rome_random.10.t:0 "Pagan Revolt"
+ rome_random.10.d:0 "Pagan rebels have had it with our 'oppressive' rule and have decided to revolt. We must mobilize quickly if we are to preserve our rule."
+ rome_random.10.a:0 "Blast!"
+

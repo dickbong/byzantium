@@ -122,7 +122,7 @@ country_event = { #pagan peasants
 	}
 }
 
-country_event = { #peasants
+country_event = { #military accident
 	id = rome_random.5
 	title = rome_random.5.t
 	desc = rome_random.5.d
@@ -143,6 +143,7 @@ country_event = { #peasants
 		name = rome_random.5.a
 		add_political_power = -75
 		add_country_flag = generic_rome_event_4
+		random_list = { 70 = { add_manpower = -4 } 30 = { add_manpower = -12 } }
 	}
 }
 
@@ -170,7 +171,7 @@ country_event = { #peasants
 	}
 }
 
-country_event = { #bad stuff
+country_event = { #yay
 	id = rome_random.7
 	title = rome_random.7.t
 	desc = rome_random.7.d
